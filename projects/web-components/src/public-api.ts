@@ -17,6 +17,6 @@ export * from './lib/components/tooltip/tooltip.component';
 export * from './lib/components/carousel/carousel.component';
 export * from './lib/components/upload/upload.component';
 export * from './lib/components/datepicker/datepicker.component';
-export * from './lib/components//sidebar/sidebar.component';
+
 export * from './lib/components//textarea/textarea.component';
 export * from './lib/components//stepper/stepper.component';

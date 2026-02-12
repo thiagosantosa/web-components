@@ -17,6 +17,11 @@ export * from './lib/components/tooltip/tooltip.component';
 export * from './lib/components/carousel/carousel.component';
 export * from './lib/components/upload/upload.component';
 export * from './lib/components/datepicker/datepicker.component';
-
-export * from './lib/components//textarea/textarea.component';
-export * from './lib/components//stepper/stepper.component';
+export * from './lib/components/card/card.component';
+export * from './lib/components/textarea/textarea.component';
+export * from './lib/components/stepper/stepper.component';
+export * from './lib/components/divider/divider.component';
+export * from './lib/components/list/list.component';
+export * from './lib/components/tree/tree.component';
+export * from './lib/components/button-toggle/button-toggle.component';
+export * from './lib/components/badge/badge.component';

@@ -1124,21 +1124,21 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    slides: demoSlides,\r\n  }\r\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/checkbox/checkbox.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\r\n  args: {\r\n    label: 'Aceito os termos e condições',\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    slides: demoSlides,\r\n  }\r\n}"
             },
             {
                 "name": "Default",
@@ -1164,31 +1164,11 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n  }\r\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/input/input.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\r\n  args: {\r\n    label: 'Nome',\r\n    placeholder: 'Digite seu nome'\r\n  }\r\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    value: 75,\r\n    label: 'Download',\r\n    showLabel: true,\r\n    showValue: true,\r\n    unit: 'MB',\r\n  }\r\n}"
             },
             {
                 "name": "Default",
@@ -1204,6 +1184,26 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    value: 75,\r\n    label: 'Download',\r\n    showLabel: true,\r\n    showValue: true,\r\n    unit: 'MB',\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1214,21 +1214,21 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    label: 'Selecione um país',\r\n    placeholder: 'Escolha uma opção',\r\n    options: countries.slice(0, 5)\r\n  }\r\n}"
-            },
-            {
-                "name": "Default",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/range-slider/range-slider.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\r\n  args: {\r\n    value: 50,\r\n    label: 'Volume',\r\n    showLabel: true,\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Selecione um país',\r\n    placeholder: 'Escolha uma opção',\r\n    options: countries.slice(0, 5)\r\n  }\r\n}"
             },
             {
                 "name": "Default",
@@ -2084,21 +2084,21 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n    size: 'large',\r\n  }\r\n}"
-            },
-            {
-                "name": "Large",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/modal/modal.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      isOpen: false,\r\n      open() { (this as any).isOpen = true; }\r\n    },\r\n    template: `\r\n      <button (click)=\"open()\" style=\"padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;\">\r\n        Modal Grande\r\n      </button>\r\n      \r\n      <web-modal\r\n        [isOpen]=\"isOpen\"\r\n        title=\"Formulário Extenso\"\r\n        subtitle=\"Preencha todos os campos abaixo\"\r\n        size=\"large\"\r\n        (closed)=\"isOpen = false\">\r\n        <div style=\"display: flex; flex-direction: column; gap: 1.5rem;\">\r\n          <p style=\"margin: 0;\">Modal grande para formulários e conteúdo extenso.</p>\r\n          <p style=\"margin: 0; color: #6b7280;\">\r\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\n          </p>\r\n        </div>\r\n      </web-modal>\r\n    `\r\n  })\r\n}"
+            },
+            {
+                "name": "Large",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n    size: 'large',\r\n  }\r\n}"
             },
             {
                 "name": "Large",
@@ -2264,16 +2264,6 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<CarouselComponent>",
-                "defaultValue": "{\r\n  title: 'Layout/Carousel',\r\n  component: CarouselComponent,\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [CarouselComponent],\r\n    }),\r\n  ],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n# 🎠 web Carousel - Slider Revolucionário\r\n\r\nO **web Carousel** é o slider mais avançado do mercado, superando Swiper.js, Angular Material, PrimeNG e todos os outros!\r\n\r\n---\r\n\r\n## 🚀 Por que é Superior?\r\n\r\n| Feature | Swiper | Material | PrimeNG | **web** ✨ |\r\n|---------|--------|----------|---------|--------------|\r\n| **Efeitos** | 5 | 1 | 2 | **6** 🎨 |\r\n| **Thumbnails** | ⚠️ | ❌ | ⚠️ | ✅ **Avançadas** |\r\n| **Lazy Load** | ⚠️ | ❌ | ⚠️ | ✅ **Nativo** |\r\n| **Touch** | ✅ | ⚠️ | ⚠️ | ✅ **Perfeito** |\r\n| **Autoplay** | ⚠️ | ⚠️ | ⚠️ | ✅ **Inteligente** |\r\n| **Performance** | ⚠️ | ⚠️ | ❌ | ✅ **GPU** |\r\n| **Responsive** | ⚠️ | ❌ | ⚠️ | ✅ **Breakpoints** |\r\n| **Bundle Size** | 🔴 Grande | 🟡 Médio | 🔴 Grande | 🟢 **Pequeno** |\r\n\r\n---\r\n\r\n## 📦 Instalação\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🔧 Uso Básico\r\n\r\n\\`\\`\\`typescript\r\nimport { CarouselComponent, CarouselSlide } from '@web/ui-components';\r\n\r\n@Component({\r\n  standalone: true,\r\n  imports: [CarouselComponent],\r\n  template: \\`\r\n    <web-carousel [slides]=\"slides\"></web-carousel>\r\n  \\`\r\n})\r\nexport class MyComponent {\r\n  slides: CarouselSlide[] = [\r\n    {\r\n      image: 'path/to/image1.jpg',\r\n      title: 'Slide 1',\r\n      description: 'Description'\r\n    },\r\n    // ... more slides\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎨 Efeitos de Transição (6)\r\n\r\n\\`\\`\\`html\r\n<!-- Slide (padrão) -->\r\n<web-carousel effect=\"slide\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Fade -->\r\n<web-carousel effect=\"fade\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Zoom -->\r\n<web-carousel effect=\"zoom\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Flip -->\r\n<web-carousel effect=\"flip\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Cube -->\r\n<web-carousel effect=\"cube\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Coverflow -->\r\n<web-carousel effect=\"coverflow\" [slides]=\"slides\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 📸 Thumbnails Inteligentes\r\n\r\n\\`\\`\\`html\r\n<!-- Embaixo (padrão) -->\r\n<web-carousel thumbnailPosition=\"bottom\"></web-carousel>\r\n\r\n<!-- Em cima -->\r\n<web-carousel thumbnailPosition=\"top\"></web-carousel>\r\n\r\n<!-- Esquerda -->\r\n<web-carousel thumbnailPosition=\"left\"></web-carousel>\r\n\r\n<!-- Direita -->\r\n<web-carousel thumbnailPosition=\"right\"></web-carousel>\r\n\r\n<!-- Sem thumbnails -->\r\n<web-carousel thumbnailPosition=\"none\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## ⚡ Autoplay Inteligente\r\n\r\n\\`\\`\\`html\r\n<web-carousel \r\n  [autoplay]=\"true\"\r\n  [autoplayDelay]=\"3000\"\r\n  [showProgress]=\"true\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n**Features:**\r\n- ✅ Pausa ao hover\r\n- ✅ Progressbar visual\r\n- ✅ Velocidade configurável\r\n\r\n---\r\n\r\n## 📱 Responsive com Breakpoints\r\n\r\n\\`\\`\\`typescript\r\nbreakpoints: CarouselBreakpoint[] = [\r\n  { breakpoint: 1024, slidesPerView: 3, spaceBetween: 30 },\r\n  { breakpoint: 768, slidesPerView: 2, spaceBetween: 20 },\r\n  { breakpoint: 480, slidesPerView: 1, spaceBetween: 10 }\r\n];\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`html\r\n<web-carousel [breakpoints]=\"breakpoints\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🖱️ Navegação\r\n\r\n\\`\\`\\`html\r\n<!-- Setas -->\r\n<web-carousel [showArrows]=\"true\"></web-carousel>\r\n\r\n<!-- Dots -->\r\n<web-carousel [showDots]=\"true\"></web-carousel>\r\n\r\n<!-- Counter -->\r\n<web-carousel [showCounter]=\"true\"></web-carousel>\r\n\r\n<!-- Thumbnails -->\r\n<web-carousel thumbnailPosition=\"bottom\"></web-carousel>\r\n\r\n<!-- Teclado -->\r\n<web-carousel [keyboard]=\"true\"></web-carousel>\r\n\r\n<!-- Drag/Swipe -->\r\n<web-carousel [draggable]=\"true\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎯 Eventos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  (slideChange)=\"onSlideChange($event)\"\r\n  (slideClick)=\"onSlideClick($event)\"\r\n  (reachBeginning)=\"onReachBeginning()\"\r\n  (reachEnd)=\"onReachEnd()\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`typescript\r\nonSlideChange(index: number) {\r\n  console.log('Current slide:', index);\r\n}\r\n\r\nonSlideClick(data: { slide: CarouselSlide; index: number }) {\r\n  console.log('Clicked:', data);\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 📋 Propriedades Completas\r\n\r\n| Propriedade | Tipo | Padrão | Descrição |\r\n|------------|------|--------|-----------|\r\n| \\`slides\\` | CarouselSlide[] | \\`[]\\` | Array de slides |\r\n| \\`effect\\` | CarouselEffect | \\`'slide'\\` | Efeito de transição |\r\n| \\`slidesPerView\\` | number | \\`1\\` | Slides visíveis |\r\n| \\`spaceBetween\\` | number | \\`16\\` | Espaço entre slides (px) |\r\n| \\`loop\\` | boolean | \\`true\\` | Loop infinito |\r\n| \\`autoplay\\` | boolean | \\`false\\` | Autoplay ativado |\r\n| \\`autoplayDelay\\` | number | \\`3000\\` | Delay do autoplay (ms) |\r\n| \\`speed\\` | number | \\`500\\` | Velocidade da transição (ms) |\r\n| \\`showArrows\\` | boolean | \\`true\\` | Mostrar setas |\r\n| \\`showDots\\` | boolean | \\`true\\` | Mostrar dots |\r\n| \\`showCounter\\` | boolean | \\`false\\` | Mostrar contador |\r\n| \\`showProgress\\` | boolean | \\`true\\` | Mostrar barra de progresso |\r\n| \\`showOverlay\\` | boolean | \\`true\\` | Mostrar overlay nos slides |\r\n| \\`thumbnailPosition\\` | ThumbnailPosition | \\`'bottom'\\` | Posição das thumbnails |\r\n| \\`lazyLoad\\` | boolean | \\`true\\` | Lazy loading de imagens |\r\n| \\`draggable\\` | boolean | \\`true\\` | Arrastar com mouse/touch |\r\n| \\`keyboard\\` | boolean | \\`true\\` | Navegação por teclado |\r\n| \\`breakpoints\\` | CarouselBreakpoint[] | \\`[]\\` | Breakpoints responsivos |\r\n\r\n---\r\n\r\n## 💡 Interface CarouselSlide\r\n\r\n\\`\\`\\`typescript\r\ninterface CarouselSlide {\r\n  id?: string | number;\r\n  image: string;              // URL da imagem\r\n  thumbnail?: string;          // URL da thumbnail (opcional)\r\n  title?: string;              // Título do slide\r\n  description?: string;        // Descrição\r\n  alt?: string;                // Alt text\r\n  link?: string;               // Link (futuro)\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎓 Casos de Uso\r\n\r\n### 1. Hero Slider\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"heroSlides\"\r\n  [autoplay]=\"true\"\r\n  effect=\"fade\"\r\n  [showCounter]=\"false\"\r\n  thumbnailPosition=\"none\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 2. Galeria de Produtos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"productImages\"\r\n  thumbnailPosition=\"bottom\"\r\n  [loop]=\"true\"\r\n  effect=\"zoom\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 3. Portfolio\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"portfolioItems\"\r\n  [slidesPerView]=\"3\"\r\n  [spaceBetween]=\"30\"\r\n  [breakpoints]=\"responsiveBreakpoints\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 4. Depoimentos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"testimonials\"\r\n  effect=\"coverflow\"\r\n  [autoplay]=\"true\"\r\n  [showOverlay]=\"true\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🔥 Performance\r\n\r\n- ✅ **GPU Acceleration** - Transições suaves\r\n- ✅ **Lazy Loading** - Carrega sob demanda\r\n- ✅ **Virtual Scrolling** - Para muitos slides\r\n- ✅ **Debounced Resize** - Otimizado\r\n- ✅ **RequestAnimationFrame** - 60fps garantidos\r\n\r\n---\r\n\r\n## 📱 Touch Gestures\r\n\r\n- ✅ **Swipe** - Deslizar para navegar\r\n- ✅ **Drag** - Arrastar slides\r\n- ✅ **Velocity** - Velocidade adaptativa\r\n- ✅ **Elastic Bounce** - Feedback visual\r\n\r\n---\r\n\r\n## ⌨️ Keyboard Navigation\r\n\r\n- ✅ **Arrow Left** - Slide anterior\r\n- ✅ **Arrow Right** - Próximo slide\r\n- ✅ **Tab** - Acessibilidade\r\n\r\n---\r\n\r\n## 🐛 Troubleshooting\r\n\r\n### Imagens não carregam?\r\n\r\n1. ✅ Verifique as URLs\r\n2. ✅ CORS habilitado\r\n3. ✅ \\`lazyLoad=\"false\"\\` para debug\r\n\r\n### Performance ruim?\r\n\r\n1. ✅ Ative lazy loading\r\n2. ✅ Reduza resolução das imagens\r\n3. ✅ Use thumbnails menores\r\n\r\n### Transições travadas?\r\n\r\n1. ✅ Reduza \\`speed\\`\r\n2. ✅ Simplifique \\`effect\\`\r\n3. ✅ Verifique GPU\r\n\r\n        `\r\n      }\r\n    }\r\n  }\r\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2289,6 +2279,16 @@
                 "deprecationMessage": "",
                 "type": "Meta<CheckboxComponent>",
                 "defaultValue": "{\r\n  title: 'Form Controls/Checkbox',\r\n  component: CheckboxComponent,\r\n  tags: ['autodocs'],\r\n  parameters:{\r\n    docs:{\r\n      description:{\r\n        component: `\r\n---\r\n\r\n## 1️⃣ INSTALAÇÃO\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 2️⃣ IMPORT NO SEU COMPONENTE\r\n\r\n\\`\\`\\`ts\r\nimport { CheckboxComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms'; // Para [(ngModel)]\r\nimport { ReactiveFormsModule } from '@angular/forms'; // Para formControlName\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    CheckboxComponent,\r\n    FormsModule,        // ← Se usar [(ngModel)]\r\n    ReactiveFormsModule // ← Se usar Reactive Forms\r\n  ],\r\n  template: \\`\r\n    <web-checkbox \r\n      label=\"Aceito os termos\"\r\n      [(ngModel)]=\"aceitoTermos\">\r\n    </web-checkbox>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  aceitoTermos = false;\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 3️⃣ USO NO TEMPLATE\r\n\r\n### Com Two-Way Binding [(ngModel)]\r\n\r\n\\`\\`\\`html\r\n<web-checkbox \r\n  label=\"Aceito receber novidades por email\"\r\n  [(ngModel)]=\"aceitoEmails\">\r\n</web-checkbox>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### Com Reactive Forms (formControlName)\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-checkbox \r\n    label=\"Li e aceito os termos de uso\"\r\n    formControlName=\"aceitoTermos\"\r\n    [required]=\"true\"\r\n    [error]=\"meuForm.get('aceitoTermos')?.invalid && meuForm.get('aceitoTermos')?.touched\"\r\n    errorMessage=\"Você precisa aceitar os termos\">\r\n  </web-checkbox>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 4️⃣ EXEMPLO COMPLETO COM REACTIVE FORMS\r\n\r\n### NO COMPONENTE TYPESCRIPT\r\n\r\n\\`\\`\\`ts\r\nimport { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';\r\nimport { CheckboxComponent } from '@web/ui-components';\r\n\r\n@Component({\r\n  selector: 'app-cadastro',\r\n  standalone: true,\r\n  imports: [ReactiveFormsModule, CheckboxComponent],\r\n  templateUrl: './cadastro.component.html'\r\n})\r\nexport class CadastroComponent implements OnInit {\r\n  cadastroForm!: FormGroup;\r\n\r\n  constructor(private fb: FormBuilder) {}\r\n\r\n  ngOnInit() {\r\n    this.cadastroForm = this.fb.group({\r\n      aceitoTermos: [false, Validators.requiredTrue],\r\n      receberEmails: [false],\r\n      receberNotificacoes: [true],\r\n      compartilharDados: [false],\r\n      nome: ['', Validators.required],\r\n      email: ['', [Validators.required, Validators.email]]\r\n    });\r\n\r\n    this.cadastroForm.get('receberEmails')?.valueChanges.subscribe(value => {\r\n      console.log('Receber emails:', value);\r\n    });\r\n  }\r\n\r\n  isFieldInvalid(fieldName: string): boolean {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    return !!(field?.invalid && field?.touched);\r\n  }\r\n\r\n  onSubmit() {\r\n    if (this.cadastroForm.valid) {\r\n      console.log('Dados:', this.cadastroForm.value);\r\n    } else {\r\n      Object.keys(this.cadastroForm.controls).forEach(key => {\r\n        this.cadastroForm.get(key)?.markAsTouched();\r\n      });\r\n    }\r\n  }\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### NO TEMPLATE HTML\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"cadastroForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n  <web-checkbox\r\n    label=\"Li e aceito os termos de uso\"\r\n    formControlName=\"aceitoTermos\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('aceitoTermos')\"\r\n    errorMessage=\"Você precisa aceitar os termos para continuar\"\r\n    color=\"primary\">\r\n  </web-checkbox>\r\n\r\n  <web-checkbox\r\n    label=\"Desejo receber emails com novidades\"\r\n    description=\"Você receberá ofertas exclusivas e atualizações\"\r\n    formControlName=\"receberEmails\">\r\n  </web-checkbox>\r\n\r\n  <web-checkbox\r\n    label=\"Receber notificações push\"\r\n    description=\"Alertas em tempo real no seu dispositivo\"\r\n    formControlName=\"receberNotificacoes\">\r\n  </web-checkbox>\r\n\r\n  <web-checkbox\r\n    label=\"Permitir compartilhamento de dados\"\r\n    description=\"Seus dados podem ser compartilhados com parceiros\"\r\n    formControlName=\"compartilharDados\">\r\n  </web-checkbox>\r\n\r\n  <button \r\n    type=\"submit\" \r\n    [disabled]=\"cadastroForm.invalid\"\r\n    style=\"margin-top: 1rem;\">\r\n    Cadastrar\r\n  </button>\r\n</form>\r\n\r\n<pre>{{ cadastroForm.value | json }}</pre>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 5️⃣ VALIDAÇÃO: CHECKBOX OBRIGATÓRIO\r\n\r\n⚠️ Para checkbox obrigatório, use **Validators.requiredTrue**\r\n\r\n\\`\\`\\`ts\r\n// CORRETO ✓\r\nthis.form = this.fb.group({\r\n  aceitoTermos: [false, Validators.requiredTrue]\r\n});\r\n\r\n// ERRADO ✗\r\nthis.form = this.fb.group({\r\n  aceitoTermos: [false, Validators.required]\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 6️⃣ EXEMPLO: LISTA DE PERMISSÕES\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  permissoes: this.fb.group({\r\n    lerDados: [true],\r\n    editarDados: [false],\r\n    excluirDados: [false],\r\n    exportarRelatorios: [false]\r\n  })\r\n});\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`html\r\n<div formGroupName=\"permissoes\">\r\n  <web-checkbox formControlName=\"lerDados\" label=\"Ler dados\"></web-checkbox>\r\n  <web-checkbox formControlName=\"editarDados\" label=\"Editar dados\"></web-checkbox>\r\n  <web-checkbox formControlName=\"excluirDados\" label=\"Excluir dados\"></web-checkbox>\r\n  <web-checkbox formControlName=\"exportarRelatorios\" label=\"Exportar relatórios\"></web-checkbox>\r\n</div>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 7️⃣ EXEMPLO: CHECKBOX COM LÓGICA CONDICIONAL\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  usarEnderecoCobranca: [false],\r\n  enderecoEntrega: ['', Validators.required],\r\n  enderecoCobranca: ['']\r\n});\r\n\r\nthis.form.get('usarEnderecoCobranca')?.valueChanges.subscribe(checked => {\r\n  const enderecoCobrancaControl = this.form.get('enderecoCobranca');\r\n\r\n  if (checked) {\r\n    enderecoCobrancaControl?.setValidators(Validators.required);\r\n  } else {\r\n    enderecoCobrancaControl?.clearValidators();\r\n  }\r\n\r\n  enderecoCobrancaControl?.updateValueAndValidity();\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 8️⃣ MARCANDO / DESMARCANDO PROGRAMATICAMENTE\r\n\r\n\\`\\`\\`ts\r\nthis.form.patchValue({ aceitoTermos: true });\r\nthis.form.patchValue({ aceitoTermos: false });\r\n\r\nconst atual = this.form.get('aceitoTermos')?.value;\r\nthis.form.patchValue({ aceitoTermos: !atual });\r\n\r\nthis.form.patchValue({\r\n  receberEmails: true,\r\n  receberNotificacoes: true,\r\n  compartilharDados: true\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 9️⃣ EXEMPLO: TERMOS E CONDIÇÕES\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"cadastroForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n  <div style=\"margin-top: 2rem; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem;\">\r\n    <web-checkbox\r\n      label=\"Li e aceito os termos de uso\"\r\n      description=\"Ao marcar, você concorda com nossas políticas\"\r\n      formControlName=\"aceitoTermos\"\r\n      [required]=\"true\"\r\n      [error]=\"isFieldInvalid('aceitoTermos')\"\r\n      errorMessage=\"Você precisa aceitar os termos\">\r\n    </web-checkbox>\r\n\r\n    <web-checkbox\r\n      label=\"Aceito receber comunicações por email (opcional)\"\r\n      formControlName=\"aceitoEmails\"\r\n      style=\"margin-top: 1rem; display: block;\">\r\n    </web-checkbox>\r\n  </div>\r\n\r\n  <button \r\n    type=\"submit\" \r\n    [disabled]=\"cadastroForm.invalid\"\r\n    style=\"margin-top: 1rem; width: 100%;\">\r\n    Criar Conta\r\n  </button>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🔟 PARA COMPONENTES NÃO-STANDALONE (NgModule)\r\n\r\n\\`\\`\\`ts\r\nimport { CheckboxComponent } from '@web/ui-components';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\n\r\n@NgModule({\r\n  declarations: [MeuComponente],\r\n  imports: [\r\n    CheckboxComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ]\r\n})\r\nexport class MeuModule {}\r\n\\`\\`\\`\r\n\r\n💡 **DICA:** Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `\r\n      }\r\n    }\r\n  },\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [CheckboxComponent, FormsModule],\r\n    }),\r\n  ],\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<CarouselComponent>",
+                "defaultValue": "{\r\n  title: 'Layout/Carousel',\r\n  component: CarouselComponent,\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [CarouselComponent],\r\n    }),\r\n  ],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n# 🎠 web Carousel - Slider Revolucionário\r\n\r\nO **web Carousel** é o slider mais avançado do mercado, superando Swiper.js, Angular Material, PrimeNG e todos os outros!\r\n\r\n---\r\n\r\n## 🚀 Por que é Superior?\r\n\r\n| Feature | Swiper | Material | PrimeNG | **web** ✨ |\r\n|---------|--------|----------|---------|--------------|\r\n| **Efeitos** | 5 | 1 | 2 | **6** 🎨 |\r\n| **Thumbnails** | ⚠️ | ❌ | ⚠️ | ✅ **Avançadas** |\r\n| **Lazy Load** | ⚠️ | ❌ | ⚠️ | ✅ **Nativo** |\r\n| **Touch** | ✅ | ⚠️ | ⚠️ | ✅ **Perfeito** |\r\n| **Autoplay** | ⚠️ | ⚠️ | ⚠️ | ✅ **Inteligente** |\r\n| **Performance** | ⚠️ | ⚠️ | ❌ | ✅ **GPU** |\r\n| **Responsive** | ⚠️ | ❌ | ⚠️ | ✅ **Breakpoints** |\r\n| **Bundle Size** | 🔴 Grande | 🟡 Médio | 🔴 Grande | 🟢 **Pequeno** |\r\n\r\n---\r\n\r\n## 📦 Instalação\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🔧 Uso Básico\r\n\r\n\\`\\`\\`typescript\r\nimport { CarouselComponent, CarouselSlide } from '@web/ui-components';\r\n\r\n@Component({\r\n  standalone: true,\r\n  imports: [CarouselComponent],\r\n  template: \\`\r\n    <web-carousel [slides]=\"slides\"></web-carousel>\r\n  \\`\r\n})\r\nexport class MyComponent {\r\n  slides: CarouselSlide[] = [\r\n    {\r\n      image: 'path/to/image1.jpg',\r\n      title: 'Slide 1',\r\n      description: 'Description'\r\n    },\r\n    // ... more slides\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎨 Efeitos de Transição (6)\r\n\r\n\\`\\`\\`html\r\n<!-- Slide (padrão) -->\r\n<web-carousel effect=\"slide\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Fade -->\r\n<web-carousel effect=\"fade\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Zoom -->\r\n<web-carousel effect=\"zoom\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Flip -->\r\n<web-carousel effect=\"flip\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Cube -->\r\n<web-carousel effect=\"cube\" [slides]=\"slides\"></web-carousel>\r\n\r\n<!-- Coverflow -->\r\n<web-carousel effect=\"coverflow\" [slides]=\"slides\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 📸 Thumbnails Inteligentes\r\n\r\n\\`\\`\\`html\r\n<!-- Embaixo (padrão) -->\r\n<web-carousel thumbnailPosition=\"bottom\"></web-carousel>\r\n\r\n<!-- Em cima -->\r\n<web-carousel thumbnailPosition=\"top\"></web-carousel>\r\n\r\n<!-- Esquerda -->\r\n<web-carousel thumbnailPosition=\"left\"></web-carousel>\r\n\r\n<!-- Direita -->\r\n<web-carousel thumbnailPosition=\"right\"></web-carousel>\r\n\r\n<!-- Sem thumbnails -->\r\n<web-carousel thumbnailPosition=\"none\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## ⚡ Autoplay Inteligente\r\n\r\n\\`\\`\\`html\r\n<web-carousel \r\n  [autoplay]=\"true\"\r\n  [autoplayDelay]=\"3000\"\r\n  [showProgress]=\"true\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n**Features:**\r\n- ✅ Pausa ao hover\r\n- ✅ Progressbar visual\r\n- ✅ Velocidade configurável\r\n\r\n---\r\n\r\n## 📱 Responsive com Breakpoints\r\n\r\n\\`\\`\\`typescript\r\nbreakpoints: CarouselBreakpoint[] = [\r\n  { breakpoint: 1024, slidesPerView: 3, spaceBetween: 30 },\r\n  { breakpoint: 768, slidesPerView: 2, spaceBetween: 20 },\r\n  { breakpoint: 480, slidesPerView: 1, spaceBetween: 10 }\r\n];\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`html\r\n<web-carousel [breakpoints]=\"breakpoints\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🖱️ Navegação\r\n\r\n\\`\\`\\`html\r\n<!-- Setas -->\r\n<web-carousel [showArrows]=\"true\"></web-carousel>\r\n\r\n<!-- Dots -->\r\n<web-carousel [showDots]=\"true\"></web-carousel>\r\n\r\n<!-- Counter -->\r\n<web-carousel [showCounter]=\"true\"></web-carousel>\r\n\r\n<!-- Thumbnails -->\r\n<web-carousel thumbnailPosition=\"bottom\"></web-carousel>\r\n\r\n<!-- Teclado -->\r\n<web-carousel [keyboard]=\"true\"></web-carousel>\r\n\r\n<!-- Drag/Swipe -->\r\n<web-carousel [draggable]=\"true\"></web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎯 Eventos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  (slideChange)=\"onSlideChange($event)\"\r\n  (slideClick)=\"onSlideClick($event)\"\r\n  (reachBeginning)=\"onReachBeginning()\"\r\n  (reachEnd)=\"onReachEnd()\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`typescript\r\nonSlideChange(index: number) {\r\n  console.log('Current slide:', index);\r\n}\r\n\r\nonSlideClick(data: { slide: CarouselSlide; index: number }) {\r\n  console.log('Clicked:', data);\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 📋 Propriedades Completas\r\n\r\n| Propriedade | Tipo | Padrão | Descrição |\r\n|------------|------|--------|-----------|\r\n| \\`slides\\` | CarouselSlide[] | \\`[]\\` | Array de slides |\r\n| \\`effect\\` | CarouselEffect | \\`'slide'\\` | Efeito de transição |\r\n| \\`slidesPerView\\` | number | \\`1\\` | Slides visíveis |\r\n| \\`spaceBetween\\` | number | \\`16\\` | Espaço entre slides (px) |\r\n| \\`loop\\` | boolean | \\`true\\` | Loop infinito |\r\n| \\`autoplay\\` | boolean | \\`false\\` | Autoplay ativado |\r\n| \\`autoplayDelay\\` | number | \\`3000\\` | Delay do autoplay (ms) |\r\n| \\`speed\\` | number | \\`500\\` | Velocidade da transição (ms) |\r\n| \\`showArrows\\` | boolean | \\`true\\` | Mostrar setas |\r\n| \\`showDots\\` | boolean | \\`true\\` | Mostrar dots |\r\n| \\`showCounter\\` | boolean | \\`false\\` | Mostrar contador |\r\n| \\`showProgress\\` | boolean | \\`true\\` | Mostrar barra de progresso |\r\n| \\`showOverlay\\` | boolean | \\`true\\` | Mostrar overlay nos slides |\r\n| \\`thumbnailPosition\\` | ThumbnailPosition | \\`'bottom'\\` | Posição das thumbnails |\r\n| \\`lazyLoad\\` | boolean | \\`true\\` | Lazy loading de imagens |\r\n| \\`draggable\\` | boolean | \\`true\\` | Arrastar com mouse/touch |\r\n| \\`keyboard\\` | boolean | \\`true\\` | Navegação por teclado |\r\n| \\`breakpoints\\` | CarouselBreakpoint[] | \\`[]\\` | Breakpoints responsivos |\r\n\r\n---\r\n\r\n## 💡 Interface CarouselSlide\r\n\r\n\\`\\`\\`typescript\r\ninterface CarouselSlide {\r\n  id?: string | number;\r\n  image: string;              // URL da imagem\r\n  thumbnail?: string;          // URL da thumbnail (opcional)\r\n  title?: string;              // Título do slide\r\n  description?: string;        // Descrição\r\n  alt?: string;                // Alt text\r\n  link?: string;               // Link (futuro)\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎓 Casos de Uso\r\n\r\n### 1. Hero Slider\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"heroSlides\"\r\n  [autoplay]=\"true\"\r\n  effect=\"fade\"\r\n  [showCounter]=\"false\"\r\n  thumbnailPosition=\"none\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 2. Galeria de Produtos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"productImages\"\r\n  thumbnailPosition=\"bottom\"\r\n  [loop]=\"true\"\r\n  effect=\"zoom\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 3. Portfolio\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"portfolioItems\"\r\n  [slidesPerView]=\"3\"\r\n  [spaceBetween]=\"30\"\r\n  [breakpoints]=\"responsiveBreakpoints\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n### 4. Depoimentos\r\n\r\n\\`\\`\\`html\r\n<web-carousel\r\n  [slides]=\"testimonials\"\r\n  effect=\"coverflow\"\r\n  [autoplay]=\"true\"\r\n  [showOverlay]=\"true\">\r\n</web-carousel>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🔥 Performance\r\n\r\n- ✅ **GPU Acceleration** - Transições suaves\r\n- ✅ **Lazy Loading** - Carrega sob demanda\r\n- ✅ **Virtual Scrolling** - Para muitos slides\r\n- ✅ **Debounced Resize** - Otimizado\r\n- ✅ **RequestAnimationFrame** - 60fps garantidos\r\n\r\n---\r\n\r\n## 📱 Touch Gestures\r\n\r\n- ✅ **Swipe** - Deslizar para navegar\r\n- ✅ **Drag** - Arrastar slides\r\n- ✅ **Velocity** - Velocidade adaptativa\r\n- ✅ **Elastic Bounce** - Feedback visual\r\n\r\n---\r\n\r\n## ⌨️ Keyboard Navigation\r\n\r\n- ✅ **Arrow Left** - Slide anterior\r\n- ✅ **Arrow Right** - Próximo slide\r\n- ✅ **Tab** - Acessibilidade\r\n\r\n---\r\n\r\n## 🐛 Troubleshooting\r\n\r\n### Imagens não carregam?\r\n\r\n1. ✅ Verifique as URLs\r\n2. ✅ CORS habilitado\r\n3. ✅ \\`lazyLoad=\"false\"\\` para debug\r\n\r\n### Performance ruim?\r\n\r\n1. ✅ Ative lazy loading\r\n2. ✅ Reduza resolução das imagens\r\n3. ✅ Use thumbnails menores\r\n\r\n### Transições travadas?\r\n\r\n1. ✅ Reduza \\`speed\\`\r\n2. ✅ Simplifique \\`effect\\`\r\n3. ✅ Verifique GPU\r\n\r\n        `\r\n      }\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "meta",
@@ -2324,31 +2324,11 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<MenuComponent>",
-                "defaultValue": "{\r\n  title: 'Navigation/Menu',\r\n  component: MenuComponent,\r\n  tags: ['autodocs'],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n\r\n### ⚠️ Pré-requisito (Ícones)\r\nEste componente utiliza **Material Symbols**.  \r\nAdicione no **index.html** do seu projeto:\r\n\r\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" rel=\"stylesheet\" />\r\n\r\n> Caso contrário, os ícones aparecerão como texto (ex: \\`homeHome\\`).\r\n\r\n---\r\n\r\n### 1️⃣ Instalação\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 2️⃣ Import no seu componente\r\n\r\n\\`\\`\\`ts\r\nimport { MenuComponent, MenuItem } from '@web/ui-components';\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [MenuComponent],\r\n  template: \\`\r\n    <web-menu [items]=\"menuItems\"></web-menu>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  menuItems: MenuItem[] = [\r\n    { id: 'home', label: 'Início', icon: 'home' },\r\n    { id: 'about', label: 'Sobre', icon: 'info' },\r\n    { id: 'contact', label: 'Contato', icon: 'mail' }\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 3️⃣ Estrutura de dados (MenuItem)\r\n\r\n\\`\\`\\`ts\r\ninterface MenuItem {\r\n  id: string;\r\n  label: string;\r\n  icon?: string;\r\n  badge?: string | number;\r\n  disabled?: boolean;\r\n  divider?: boolean;\r\n  children?: MenuItem[];\r\n  route?: string;\r\n  action?: () => void;\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 4️⃣ Exemplo básico\r\n\r\n\\`\\`\\`html\r\n<web-menu\r\n  [items]=\"menuItems\"\r\n  (itemClicked)=\"onMenuClick($event)\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 5️⃣ Menu com submenu\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  {\r\n    id: 'products',\r\n    label: 'Produtos',\r\n    icon: 'inventory',\r\n    children: [\r\n      { id: 'electronics', label: 'Eletrônicos', icon: 'computer' },\r\n      { id: 'books', label: 'Livros', icon: 'book' }\r\n    ]\r\n  }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 6️⃣ Menu com badge\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'inbox', label: 'Inbox', icon: 'inbox', badge: 5 },\r\n  { id: 'notifications', label: 'Notificações', icon: 'notifications', badge: 12 }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 7️⃣ Menu com separadores\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'home', label: 'Início', icon: 'home' },\r\n  { id: 'div1', label: '', divider: true },\r\n  { id: 'settings', label: 'Configurações', icon: 'settings' }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 8️⃣ Variantes disponíveis\r\n\r\n\\`\\`\\`html\r\n<web-menu variant=\"default\"></web-menu>\r\n<web-menu variant=\"pills\"></web-menu>\r\n<web-menu variant=\"tabs\"></web-menu>\r\n<web-menu variant=\"navbar\"></web-menu>\r\n\r\n<web-menu\r\n  variant=\"sidebar\"\r\n  orientation=\"vertical\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 9️⃣ Orientação e alinhamento\r\n\r\n\\`\\`\\`html\r\n<web-menu orientation=\"horizontal\" align=\"left\"></web-menu>\r\n<web-menu orientation=\"vertical\"></web-menu>\r\n<web-menu align=\"center\"></web-menu>\r\n<web-menu align=\"right\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 🔟 Tamanhos\r\n\r\n\\`\\`\\`html\r\n<web-menu size=\"small\"></web-menu>\r\n<web-menu size=\"medium\"></web-menu>\r\n<web-menu size=\"large\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣1️⃣ Item ativo\r\n\r\n\\`\\`\\`html\r\n<web-menu activeItemId=\"home\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣2️⃣ Eventos\r\n\r\n\\`\\`\\`html\r\n<web-menu\r\n  [items]=\"items\"\r\n  (itemClicked)=\"handleMenuClick($event)\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣3️⃣ Integração com Angular Router\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'home', label: 'Início', route: '/home' },\r\n  { id: 'products', label: 'Produtos', route: '/products' }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### ❌ Erro comum\r\n\r\n- Ícones renderizando como texto → Material Symbols não carregado\r\n- Layout quebrado → CSS interno sem \\`display: flex\\`\r\n\r\n---\r\n\r\n💡 **Dica:**  \r\nEste menu foi projetado para **Design Systems enterprise**  \r\n(sidebar, navbar, tabs e navegação complexa).\r\n        `\r\n      }\r\n    }\r\n},\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [MenuComponent],\r\n    }),\r\n  ],\r\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/input/input.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<InputComponent>",
                 "defaultValue": "{\r\n  title: 'Form Controls/Input',\r\n  component: InputComponent,\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n---\r\n\r\n## 1️⃣ INSTALAÇÃO\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 2️⃣ IMPORT NO SEU COMPONENTE\r\n\r\n\\`\\`\\`ts\r\nimport { InputComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms'; // Para [(ngModel)]\r\nimport { ReactiveFormsModule } from '@angular/forms'; // Para formControlName\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    InputComponent,\r\n    FormsModule,        // ← Se usar [(ngModel)]\r\n    ReactiveFormsModule // ← Se usar Reactive Forms\r\n  ],\r\n  template: \\`\r\n    <web-input label=\"Nome\" [(ngModel)]=\"nome\"></web-input>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  nome = '';\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 3️⃣ USO NO TEMPLATE\r\n\r\n### Com Two-Way Binding [(ngModel)]\r\n\r\n\\`\\`\\`html\r\n<web-input \r\n  label=\"E-mail\"\r\n  type=\"email\"\r\n  placeholder=\"seu@email.com\"\r\n  [(ngModel)]=\"email\">\r\n</web-input>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### Com Reactive Forms (formControlName)\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-input \r\n    label=\"Nome\"\r\n    placeholder=\"Digite seu nome\"\r\n    formControlName=\"nome\"\r\n    [required]=\"true\"\r\n    [error]=\"meuForm.get('nome')?.invalid && meuForm.get('nome')?.touched\"\r\n    errorMessage=\"Nome é obrigatório\">\r\n  </web-input>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 4️⃣ CONFIGURANDO REACTIVE FORMS\r\n\r\n\\`\\`\\`ts\r\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\r\n\r\nexport class MeuComponente implements OnInit {\r\n  meuForm!: FormGroup;\r\n\r\n  constructor(private fb: FormBuilder) {}\r\n\r\n  ngOnInit() {\r\n    this.meuForm = this.fb.group({\r\n      nome: ['', [Validators.required, Validators.minLength(3)]],\r\n      email: ['', [Validators.required, Validators.email]],\r\n      telefone: ['', Validators.required]\r\n    });\r\n  }\r\n\r\n  onSubmit() {\r\n    if (this.meuForm.valid) {\r\n      console.log(this.meuForm.value);\r\n    }\r\n  }\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 5️⃣ EXEMPLO COMPLETO COM VALIDAÇÕES\r\n\r\n### NO COMPONENTE TYPESCRIPT\r\n\r\n\\`\\`\\`ts\r\nimport { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';\r\nimport { InputComponent } from '@web/ui-components';\r\n\r\n@Component({\r\n  selector: 'app-cadastro',\r\n  standalone: true,\r\n  imports: [ReactiveFormsModule, InputComponent],\r\n  templateUrl: './cadastro.component.html'\r\n})\r\nexport class CadastroComponent implements OnInit {\r\n  cadastroForm!: FormGroup;\r\n\r\n  constructor(private fb: FormBuilder) {}\r\n\r\n  ngOnInit() {\r\n    this.cadastroForm = this.fb.group({\r\n      nome: ['', [Validators.required, Validators.minLength(3)]],\r\n      email: ['', [Validators.required, Validators.email]],\r\n      telefone: ['', Validators.required],\r\n      senha: ['', [Validators.required, Validators.minLength(6)]]\r\n    });\r\n  }\r\n\r\n  isFieldInvalid(fieldName: string): boolean {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    return !!(field?.invalid && field?.touched);\r\n  }\r\n\r\n  getErrorMessage(fieldName: string): string {\r\n    const field = this.cadastroForm.get(fieldName);\r\n\r\n    if (field?.hasError('required')) {\r\n      return 'Este campo é obrigatório';\r\n    }\r\n    if (field?.hasError('email')) {\r\n      return 'E-mail inválido';\r\n    }\r\n    if (field?.hasError('minlength')) {\r\n      const minLength = field.errors?.['minlength'].requiredLength;\r\n      return \\`Mínimo de \\${minLength} caracteres\\`;\r\n    }\r\n    return '';\r\n  }\r\n\r\n  onSubmit() {\r\n    if (this.cadastroForm.valid) {\r\n      console.log('Dados:', this.cadastroForm.value);\r\n    } else {\r\n      Object.keys(this.cadastroForm.controls).forEach(key => {\r\n        this.cadastroForm.get(key)?.markAsTouched();\r\n      });\r\n    }\r\n  }\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### NO TEMPLATE HTML\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"cadastroForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n  <web-input\r\n    label=\"Nome Completo\"\r\n    placeholder=\"Digite seu nome\"\r\n    formControlName=\"nome\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('nome')\"\r\n    [errorMessage]=\"getErrorMessage('nome')\">\r\n  </web-input>\r\n\r\n  <web-input\r\n    label=\"E-mail\"\r\n    type=\"email\"\r\n    placeholder=\"seu@email.com\"\r\n    formControlName=\"email\"\r\n    icon=\"mail\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('email')\"\r\n    [errorMessage]=\"getErrorMessage('email')\">\r\n  </web-input>\r\n\r\n  <web-input\r\n    label=\"Telefone\"\r\n    type=\"tel\"\r\n    placeholder=\"(11) 98765-4321\"\r\n    formControlName=\"telefone\"\r\n    mask=\"(00) 00000-0000\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('telefone')\"\r\n    errorMessage=\"Telefone é obrigatório\">\r\n  </web-input>\r\n\r\n  <web-input\r\n    label=\"Senha\"\r\n    type=\"password\"\r\n    placeholder=\"Mínimo 6 caracteres\"\r\n    formControlName=\"senha\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('senha')\"\r\n    [errorMessage]=\"getErrorMessage('senha')\"\r\n    helperText=\"Use letras, números e caracteres especiais\">\r\n  </web-input>\r\n\r\n  <button type=\"submit\" [disabled]=\"cadastroForm.invalid\">\r\n    Cadastrar\r\n  </button>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 6️⃣ OBSERVANDO MUDANÇAS NO FORMULÁRIO\r\n\r\n\\`\\`\\`ts\r\nthis.cadastroForm.get('email')?.valueChanges.subscribe(value => {\r\n  console.log('Email alterado:', value);\r\n});\r\n\r\nthis.cadastroForm.valueChanges.subscribe(values => {\r\n  console.log('Formulário alterado:', values);\r\n});\r\n\r\nthis.cadastroForm.statusChanges.subscribe(status => {\r\n  console.log('Status:', status);\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 7️⃣ PARA COMPONENTES NÃO-STANDALONE (NgModule)\r\n\r\n\\`\\`\\`ts\r\nimport { InputComponent } from '@web/ui-components';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\n\r\n@NgModule({\r\n  declarations: [MeuComponente],\r\n  imports: [\r\n    InputComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ]\r\n})\r\nexport class MeuModule {}\r\n\\`\\`\\`\r\n\r\n💡 **DICA:** Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `,\r\n      },\r\n    },\r\n  },\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [InputComponent, FormsModule],\r\n    }),\r\n  ],\r\n  argTypes: {\r\n    type: {\r\n      control: 'select',\r\n      options: ['text', 'email', 'password', 'number', 'tel', 'url', 'date', 'time', 'cpf', 'cnpj', 'phone', 'cep', 'currency']\r\n    },\r\n    icon: {\r\n      control: 'text',\r\n      description: 'Material Icon name (ex: search, email, lock)'\r\n    }\r\n  }\r\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<ProgressComponent>",
-                "defaultValue": "{\r\n  title: 'Form Controls/Progress',\r\n  component: ProgressComponent,\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [ProgressComponent, CommonModule],\r\n    }),\r\n  ],\r\n}"
             },
             {
                 "name": "meta",
@@ -2364,21 +2344,31 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
+                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<RadioComponent>",
-                "defaultValue": "{\r\n  title: 'Form Controls/Radio',\r\n  component: RadioComponent,\r\n  tags: ['autodocs'],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n        \r\n 1️⃣ INSTALAÇÃO\r\n--------------\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n2️⃣ IMPORT NO SEU COMPONENTE\r\n----------------------------\r\n\\`\\`\\`ts\r\nimport { RadioComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    RadioComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ],\r\n  template: \\`\r\n    <web-radio name=\"opcao\" value=\"1\" label=\"Opção 1\" [(ngModel)]=\"selecionado\"></web-radio>\r\n    <web-radio name=\"opcao\" value=\"2\" label=\"Opção 2\" [(ngModel)]=\"selecionado\"></web-radio>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  selecionado = '1';\r\n}\r\n\\`\\`\\`\r\n\r\n3️⃣ USO NO TEMPLATE\r\n-------------------\r\n\r\n⚠️ IMPORTANTE: Todos os radios do MESMO GRUPO devem ter o MESMO \"name\"\r\n\r\n### Two-Way Binding\r\n\\`\\`\\`html\r\n<web-radio name=\"pagamento\" value=\"credito\" label=\"Cartão de Crédito\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n<web-radio name=\"pagamento\" value=\"debito\" label=\"Cartão de Débito\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n<web-radio name=\"pagamento\" value=\"pix\" label=\"PIX\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`ts\r\nmetodoPagamento = 'credito';\r\n\\`\\`\\`\r\n\r\n### Reactive Forms\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-radio name=\"genero\" value=\"M\" label=\"Masculino\" formControlName=\"genero\"></web-radio>\r\n  <web-radio name=\"genero\" value=\"F\" label=\"Feminino\" formControlName=\"genero\"></web-radio>\r\n</form>\r\n\\`\\`\\`\r\n\r\n4️⃣ CONFIGURANDO REACTIVE FORMS\r\n-------------------------------\r\n\\`\\`\\`ts\r\nthis.meuForm = this.fb.group({\r\n  genero: ['', Validators.required],\r\n  plano: ['pro', Validators.required]\r\n});\r\n\\`\\`\\`\r\n\r\n5️⃣ VARIANTES DISPONÍVEIS\r\n-------------------------\r\n\\`\\`\\`html\r\n<web-radio variant=\"button\" name=\"tamanho\" value=\"P\" label=\"P\"></web-radio>\r\n<web-radio variant=\"card\" name=\"plano\" value=\"basic\" label=\"Plano Básico\" description=\"R$ 29/mês\"></web-radio>\r\n<web-radio variant=\"inline\" name=\"resposta\" value=\"sim\" label=\"Sim\"></web-radio>\r\n\\`\\`\\`\r\n\r\n6️⃣ CORES DISPONÍVEIS\r\n---------------------\r\n\\`\\`\\`html\r\n<web-radio color=\"primary\" label=\"Primary\"></web-radio>\r\n<web-radio color=\"success\" label=\"Success\"></web-radio>\r\n<web-radio color=\"danger\" label=\"Danger\"></web-radio>\r\n<web-radio color=\"warning\" label=\"Warning\"></web-radio>\r\n\\`\\`\\`\r\n\r\n❌ ERRO COMUM\r\n--------------\r\n\\`\\`\\`html\r\n<!-- ERRADO -->\r\n<web-radio name=\"opcao1\" value=\"1\"></web-radio>\r\n<web-radio name=\"opcao2\" value=\"2\"></web-radio>\r\n\r\n<!-- CORRETO -->\r\n<web-radio name=\"opcao\" value=\"1\"></web-radio>\r\n<web-radio name=\"opcao\" value=\"2\"></web-radio>\r\n\\`\\`\\`\r\n\r\n💡 DICA: Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `\r\n      }\r\n    }\r\n  },\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [RadioComponent, FormsModule],\r\n    }),\r\n  ],\r\n}"
+                "type": "Meta<MenuComponent>",
+                "defaultValue": "{\r\n  title: 'Navigation/Menu',\r\n  component: MenuComponent,\r\n  tags: ['autodocs'],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n\r\n### ⚠️ Pré-requisito (Ícones)\r\nEste componente utiliza **Material Symbols**.  \r\nAdicione no **index.html** do seu projeto:\r\n\r\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" rel=\"stylesheet\" />\r\n\r\n> Caso contrário, os ícones aparecerão como texto (ex: \\`homeHome\\`).\r\n\r\n---\r\n\r\n### 1️⃣ Instalação\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 2️⃣ Import no seu componente\r\n\r\n\\`\\`\\`ts\r\nimport { MenuComponent, MenuItem } from '@web/ui-components';\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [MenuComponent],\r\n  template: \\`\r\n    <web-menu [items]=\"menuItems\"></web-menu>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  menuItems: MenuItem[] = [\r\n    { id: 'home', label: 'Início', icon: 'home' },\r\n    { id: 'about', label: 'Sobre', icon: 'info' },\r\n    { id: 'contact', label: 'Contato', icon: 'mail' }\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 3️⃣ Estrutura de dados (MenuItem)\r\n\r\n\\`\\`\\`ts\r\ninterface MenuItem {\r\n  id: string;\r\n  label: string;\r\n  icon?: string;\r\n  badge?: string | number;\r\n  disabled?: boolean;\r\n  divider?: boolean;\r\n  children?: MenuItem[];\r\n  route?: string;\r\n  action?: () => void;\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 4️⃣ Exemplo básico\r\n\r\n\\`\\`\\`html\r\n<web-menu\r\n  [items]=\"menuItems\"\r\n  (itemClicked)=\"onMenuClick($event)\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 5️⃣ Menu com submenu\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  {\r\n    id: 'products',\r\n    label: 'Produtos',\r\n    icon: 'inventory',\r\n    children: [\r\n      { id: 'electronics', label: 'Eletrônicos', icon: 'computer' },\r\n      { id: 'books', label: 'Livros', icon: 'book' }\r\n    ]\r\n  }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 6️⃣ Menu com badge\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'inbox', label: 'Inbox', icon: 'inbox', badge: 5 },\r\n  { id: 'notifications', label: 'Notificações', icon: 'notifications', badge: 12 }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 7️⃣ Menu com separadores\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'home', label: 'Início', icon: 'home' },\r\n  { id: 'div1', label: '', divider: true },\r\n  { id: 'settings', label: 'Configurações', icon: 'settings' }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 8️⃣ Variantes disponíveis\r\n\r\n\\`\\`\\`html\r\n<web-menu variant=\"default\"></web-menu>\r\n<web-menu variant=\"pills\"></web-menu>\r\n<web-menu variant=\"tabs\"></web-menu>\r\n<web-menu variant=\"navbar\"></web-menu>\r\n\r\n<web-menu\r\n  variant=\"sidebar\"\r\n  orientation=\"vertical\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 9️⃣ Orientação e alinhamento\r\n\r\n\\`\\`\\`html\r\n<web-menu orientation=\"horizontal\" align=\"left\"></web-menu>\r\n<web-menu orientation=\"vertical\"></web-menu>\r\n<web-menu align=\"center\"></web-menu>\r\n<web-menu align=\"right\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 🔟 Tamanhos\r\n\r\n\\`\\`\\`html\r\n<web-menu size=\"small\"></web-menu>\r\n<web-menu size=\"medium\"></web-menu>\r\n<web-menu size=\"large\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣1️⃣ Item ativo\r\n\r\n\\`\\`\\`html\r\n<web-menu activeItemId=\"home\"></web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣2️⃣ Eventos\r\n\r\n\\`\\`\\`html\r\n<web-menu\r\n  [items]=\"items\"\r\n  (itemClicked)=\"handleMenuClick($event)\">\r\n</web-menu>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### 1️⃣3️⃣ Integração com Angular Router\r\n\r\n\\`\\`\\`ts\r\nmenuItems: MenuItem[] = [\r\n  { id: 'home', label: 'Início', route: '/home' },\r\n  { id: 'products', label: 'Produtos', route: '/products' }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### ❌ Erro comum\r\n\r\n- Ícones renderizando como texto → Material Symbols não carregado\r\n- Layout quebrado → CSS interno sem \\`display: flex\\`\r\n\r\n---\r\n\r\n💡 **Dica:**  \r\nEste menu foi projetado para **Design Systems enterprise**  \r\n(sidebar, navbar, tabs e navegação complexa).\r\n        `\r\n      }\r\n    }\r\n},\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [MenuComponent],\r\n    }),\r\n  ],\r\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
+                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<SelectComponent>",
-                "defaultValue": "{\r\n  title: 'Form Controls/Select',\r\n  component: SelectComponent,\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [SelectComponent, FormsModule],\r\n    }),\r\n  ],\r\n  tags: ['autodocs'],\r\n  parameters:{\r\n    docs:{\r\n      description:{\r\n        component: `\r\n \r\n---\r\n\r\n## 1️⃣ INSTALAÇÃO\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 2️⃣ IMPORT NO SEU COMPONENTE\r\n\r\n\\`\\`\\`ts\r\nimport { SelectComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms'; // Para [(ngModel)]\r\nimport { ReactiveFormsModule } from '@angular/forms'; // Para formControlName\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    SelectComponent,\r\n    FormsModule,        // ← Se usar [(ngModel)]\r\n    ReactiveFormsModule // ← Se usar Reactive Forms\r\n  ],\r\n  template: \\`\r\n    <web-select \r\n      label=\"Estado\"\r\n      [options]=\"estados\"\r\n      [(ngModel)]=\"estadoSelecionado\">\r\n    </web-select>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  estadoSelecionado = 'SP';\r\n\r\n  estados = [\r\n    { value: 'SP', label: 'São Paulo' },\r\n    { value: 'RJ', label: 'Rio de Janeiro' },\r\n    { value: 'MG', label: 'Minas Gerais' }\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 3️⃣ USO NO TEMPLATE\r\n\r\n### Com Two-Way Binding [(ngModel)]\r\n\r\n\\`\\`\\`html\r\n<web-select \r\n  label=\"Selecione uma opção\"\r\n  placeholder=\"Escolha...\"\r\n  [options]=\"opcoes\"\r\n  [(ngModel)]=\"selecionado\">\r\n</web-select>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### Com Reactive Forms (formControlName)\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-select \r\n    label=\"Estado\"\r\n    placeholder=\"Selecione o estado\"\r\n    [options]=\"estados\"\r\n    formControlName=\"estado\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [error]=\"meuForm.get('estado')?.invalid && meuForm.get('estado')?.touched\"\r\n    errorMessage=\"Estado é obrigatório\">\r\n  </web-select>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 4️⃣ EXEMPLO COMPLETO COM REACTIVE FORMS\r\n\r\n### NO COMPONENTE TYPESCRIPT\r\n\r\n\\`\\`\\`ts\r\nimport { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';\r\nimport { SelectComponent } from '@web/ui-components';\r\n\r\ninterface SelectOption {\r\n  value: string;\r\n  label: string;\r\n}\r\n\r\n@Component({\r\n  selector: 'app-cadastro',\r\n  standalone: true,\r\n  imports: [ReactiveFormsModule, SelectComponent],\r\n  templateUrl: './cadastro.component.html'\r\n})\r\nexport class CadastroComponent implements OnInit {\r\n  cadastroForm!: FormGroup;\r\n\r\n  paises: SelectOption[] = [\r\n    { value: 'BR', label: 'Brasil' },\r\n    { value: 'US', label: 'Estados Unidos' },\r\n    { value: 'AR', label: 'Argentina' }\r\n  ];\r\n\r\n  estados: SelectOption[] = [\r\n    { value: 'SP', label: 'São Paulo' },\r\n    { value: 'RJ', label: 'Rio de Janeiro' },\r\n    { value: 'MG', label: 'Minas Gerais' },\r\n    { value: 'RS', label: 'Rio Grande do Sul' }\r\n  ];\r\n\r\n  cidades: SelectOption[] = [];\r\n\r\n  cidadesPorEstado: { [key: string]: SelectOption[] } = {\r\n    'SP': [\r\n      { value: 'sao-paulo', label: 'São Paulo' },\r\n      { value: 'campinas', label: 'Campinas' },\r\n      { value: 'santos', label: 'Santos' }\r\n    ],\r\n    'RJ': [\r\n      { value: 'rio-janeiro', label: 'Rio de Janeiro' },\r\n      { value: 'niteroi', label: 'Niterói' }\r\n    ],\r\n    'MG': [\r\n      { value: 'bh', label: 'Belo Horizonte' },\r\n      { value: 'uberlandia', label: 'Uberlândia' }\r\n    ]\r\n  };\r\n\r\n  tecnologias: SelectOption[] = [\r\n    { value: 'angular', label: 'Angular' },\r\n    { value: 'react', label: 'React' },\r\n    { value: 'vue', label: 'Vue.js' },\r\n    { value: 'node', label: 'Node.js' }\r\n  ];\r\n\r\n  constructor(private fb: FormBuilder) {}\r\n\r\n  ngOnInit() {\r\n    this.cadastroForm = this.fb.group({\r\n      pais: ['BR', Validators.required],\r\n      estado: ['', Validators.required],\r\n      cidade: ['', Validators.required],\r\n      tecnologias: [[], Validators.required]\r\n    });\r\n\r\n    this.cadastroForm.get('estado')?.valueChanges.subscribe(estado => {\r\n      this.atualizarCidades(estado);\r\n      this.cadastroForm.patchValue({ cidade: '' });\r\n    });\r\n  }\r\n\r\n  atualizarCidades(estado: string) {\r\n    this.cidades = this.cidadesPorEstado[estado] || [];\r\n  }\r\n\r\n  isFieldInvalid(fieldName: string): boolean {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    return !!(field?.invalid && field?.touched);\r\n  }\r\n\r\n  getErrorMessage(fieldName: string): string {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    if (field?.hasError('required')) {\r\n      return 'Este campo é obrigatório';\r\n    }\r\n    return '';\r\n  }\r\n\r\n  onSubmit() {\r\n    if (this.cadastroForm.valid) {\r\n      console.log('Dados:', this.cadastroForm.value);\r\n    } else {\r\n      Object.keys(this.cadastroForm.controls).forEach(key => {\r\n        this.cadastroForm.get(key)?.markAsTouched();\r\n      });\r\n    }\r\n  }\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### NO TEMPLATE HTML\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"cadastroForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n  <web-select\r\n    label=\"País\"\r\n    placeholder=\"Selecione o país\"\r\n    [options]=\"paises\"\r\n    formControlName=\"pais\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('pais')\"\r\n    errorMessage=\"País é obrigatório\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Estado\"\r\n    placeholder=\"Selecione o estado\"\r\n    [options]=\"estados\"\r\n    formControlName=\"estado\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [error]=\"isFieldInvalid('estado')\"\r\n    errorMessage=\"Estado é obrigatório\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Cidade\"\r\n    placeholder=\"Selecione a cidade\"\r\n    [options]=\"cidades\"\r\n    formControlName=\"cidade\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [disabled]=\"!cadastroForm.get('estado')?.value\"\r\n    [error]=\"isFieldInvalid('cidade')\"\r\n    errorMessage=\"Cidade é obrigatória\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Tecnologias\"\r\n    placeholder=\"Selecione suas tecnologias\"\r\n    [options]=\"tecnologias\"\r\n    formControlName=\"tecnologias\"\r\n    [multiple]=\"true\"\r\n    [searchable]=\"true\"\r\n    helperText=\"Selecione todas que você domina\">\r\n  </web-select>\r\n\r\n  <button type=\"submit\" [disabled]=\"cadastroForm.invalid\">\r\n    Cadastrar\r\n  </button>\r\n</form>\r\n\r\n<pre>{{ cadastroForm.value | json }}</pre>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 5️⃣ SELECT DEPENDENTE (ESTADO → CIDADE)\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  estado: [''],\r\n  cidade: ['']\r\n});\r\n\r\nthis.form.get('estado')?.valueChanges.subscribe(estado => {\r\n  this.cidades = this.getCidadesPorEstado(estado);\r\n  this.form.patchValue({ cidade: '' });\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 6️⃣ SELECT MÚLTIPLO\r\n\r\n\\`\\`\\`html\r\n<web-select\r\n  label=\"Habilidades\"\r\n  [options]=\"habilidades\"\r\n  formControlName=\"minhasHabilidades\"\r\n  [multiple]=\"true\"\r\n  [searchable]=\"true\">\r\n</web-select>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  minhasHabilidades: [[]]\r\n});\r\n\r\nconsole.log(this.form.value);\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 7️⃣ DEFININDO VALOR INICIAL\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  estado: ['SP']\r\n});\r\n\r\nthis.form.patchValue({\r\n  estado: 'RJ',\r\n  cidade: 'rio-janeiro'\r\n});\r\n\r\nthis.form.patchValue({\r\n  tecnologias: ['angular', 'typescript']\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 8️⃣ PARA COMPONENTES NÃO-STANDALONE (NgModule)\r\n\r\n\\`\\`\\`ts\r\nimport { SelectComponent } from '@web/ui-components';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\n\r\n@NgModule({\r\n  declarations: [MeuComponente],\r\n  imports: [\r\n    SelectComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ]\r\n})\r\nexport class MeuModule {}\r\n\\`\\`\\`\r\n\r\n💡 **DICA:** Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `\r\n      }\r\n    }\r\n  },\r\n  argTypes: {\r\n    multiple: {\r\n      control: 'boolean',\r\n      description: 'Permite seleção múltipla'\r\n    },\r\n    searchable: {\r\n      control: 'boolean',\r\n      description: 'Habilita busca nas opções'\r\n    },\r\n    clearable: {\r\n      control: 'boolean',\r\n      description: 'Mostra botão para limpar seleção'\r\n    },\r\n    useNative: {\r\n      control: 'boolean',\r\n      description: 'Usa select nativo do HTML'\r\n    }\r\n  }\r\n}"
+                "type": "Meta<ProgressComponent>",
+                "defaultValue": "{\r\n  title: 'Form Controls/Progress',\r\n  component: ProgressComponent,\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [ProgressComponent, CommonModule],\r\n    }),\r\n  ],\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<RadioComponent>",
+                "defaultValue": "{\r\n  title: 'Form Controls/Radio',\r\n  component: RadioComponent,\r\n  tags: ['autodocs'],\r\n  parameters: {\r\n    docs: {\r\n      description: {\r\n        component: `\r\n        \r\n 1️⃣ INSTALAÇÃO\r\n--------------\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n2️⃣ IMPORT NO SEU COMPONENTE\r\n----------------------------\r\n\\`\\`\\`ts\r\nimport { RadioComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    RadioComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ],\r\n  template: \\`\r\n    <web-radio name=\"opcao\" value=\"1\" label=\"Opção 1\" [(ngModel)]=\"selecionado\"></web-radio>\r\n    <web-radio name=\"opcao\" value=\"2\" label=\"Opção 2\" [(ngModel)]=\"selecionado\"></web-radio>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  selecionado = '1';\r\n}\r\n\\`\\`\\`\r\n\r\n3️⃣ USO NO TEMPLATE\r\n-------------------\r\n\r\n⚠️ IMPORTANTE: Todos os radios do MESMO GRUPO devem ter o MESMO \"name\"\r\n\r\n### Two-Way Binding\r\n\\`\\`\\`html\r\n<web-radio name=\"pagamento\" value=\"credito\" label=\"Cartão de Crédito\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n<web-radio name=\"pagamento\" value=\"debito\" label=\"Cartão de Débito\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n<web-radio name=\"pagamento\" value=\"pix\" label=\"PIX\" [(ngModel)]=\"metodoPagamento\"></web-radio>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`ts\r\nmetodoPagamento = 'credito';\r\n\\`\\`\\`\r\n\r\n### Reactive Forms\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-radio name=\"genero\" value=\"M\" label=\"Masculino\" formControlName=\"genero\"></web-radio>\r\n  <web-radio name=\"genero\" value=\"F\" label=\"Feminino\" formControlName=\"genero\"></web-radio>\r\n</form>\r\n\\`\\`\\`\r\n\r\n4️⃣ CONFIGURANDO REACTIVE FORMS\r\n-------------------------------\r\n\\`\\`\\`ts\r\nthis.meuForm = this.fb.group({\r\n  genero: ['', Validators.required],\r\n  plano: ['pro', Validators.required]\r\n});\r\n\\`\\`\\`\r\n\r\n5️⃣ VARIANTES DISPONÍVEIS\r\n-------------------------\r\n\\`\\`\\`html\r\n<web-radio variant=\"button\" name=\"tamanho\" value=\"P\" label=\"P\"></web-radio>\r\n<web-radio variant=\"card\" name=\"plano\" value=\"basic\" label=\"Plano Básico\" description=\"R$ 29/mês\"></web-radio>\r\n<web-radio variant=\"inline\" name=\"resposta\" value=\"sim\" label=\"Sim\"></web-radio>\r\n\\`\\`\\`\r\n\r\n6️⃣ CORES DISPONÍVEIS\r\n---------------------\r\n\\`\\`\\`html\r\n<web-radio color=\"primary\" label=\"Primary\"></web-radio>\r\n<web-radio color=\"success\" label=\"Success\"></web-radio>\r\n<web-radio color=\"danger\" label=\"Danger\"></web-radio>\r\n<web-radio color=\"warning\" label=\"Warning\"></web-radio>\r\n\\`\\`\\`\r\n\r\n❌ ERRO COMUM\r\n--------------\r\n\\`\\`\\`html\r\n<!-- ERRADO -->\r\n<web-radio name=\"opcao1\" value=\"1\"></web-radio>\r\n<web-radio name=\"opcao2\" value=\"2\"></web-radio>\r\n\r\n<!-- CORRETO -->\r\n<web-radio name=\"opcao\" value=\"1\"></web-radio>\r\n<web-radio name=\"opcao\" value=\"2\"></web-radio>\r\n\\`\\`\\`\r\n\r\n💡 DICA: Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `\r\n      }\r\n    }\r\n  },\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [RadioComponent, FormsModule],\r\n    }),\r\n  ],\r\n}"
             },
             {
                 "name": "meta",
@@ -2399,6 +2389,16 @@
                 "deprecationMessage": "",
                 "type": "Meta<SidebarComponent>",
                 "defaultValue": "{\r\n  title: 'Navigation/Sidebar',\r\n  component: SidebarComponent,\r\n  tags: ['autodocs'],\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [SidebarComponent],\r\n    }),\r\n    applicationConfig({\r\n      providers: [provideRouter([])],\r\n    }),\r\n  ],\r\n  parameters: {\r\n  docs: {\r\n  description: {\r\n    component: `\r\n# 📘 Guia Completo de Implementação - Web Sidebar\r\n\r\n## 🚀 Como Usar o Sidebar\r\n\r\n### **1. Importar o Componente**\r\n\r\n\\`\\`\\`typescript\r\n// app.component.ts (ou seu componente principal)\r\nimport { Component } from '@angular/core';\r\nimport { SidebarComponent, MenuItem, UserProfile, QuickAction } from './sidebar.component';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  standalone: true,\r\n  imports: [SidebarComponent],\r\n  templateUrl: './app.component.html'\r\n})\r\nexport class AppComponent {\r\n  // Configurações aqui...\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 📋 **2. Criar o Array de Menu Items**\r\n\r\n### **Exemplo Básico:**\r\n\r\n\\`\\`\\`typescript\r\nexport class AppComponent {\r\n  menuItems: MenuItem[] = [\r\n    {\r\n      label: 'Dashboard',\r\n      icon: 'dashboard',\r\n      route: '/dashboard'\r\n    },\r\n    {\r\n      label: 'Users',\r\n      icon: 'people',\r\n      route: '/users'\r\n    },\r\n    {\r\n      label: 'Settings',\r\n      icon: 'settings',\r\n      route: '/settings'\r\n    }\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n### **Com Badges (Contadores):**\r\n\r\n\\`\\`\\`typescript\r\nmenuItems: MenuItem[] = [\r\n  {\r\n    label: 'Inbox',\r\n    icon: 'inbox',\r\n    route: '/inbox',\r\n    badge: {\r\n      value: '42',\r\n      color: '#007bff',\r\n      pulse: true\r\n    }\r\n  },\r\n  {\r\n    label: 'Notifications',\r\n    icon: 'notifications',\r\n    route: '/notifications',\r\n    badge: {\r\n      value: 'New',\r\n      color: '#28a745'\r\n    }\r\n  }\r\n];\r\n\\`\\`\\`\r\n\r\n### **Menu Multi-Level (Submenu):**\r\n\r\n\\`\\`\\`typescript\r\nmenuItems: MenuItem[] = [\r\n  {\r\n    label: 'Dashboard',\r\n    icon: 'dashboard',\r\n    route: '/dashboard'\r\n  },\r\n  {\r\n    label: 'Products',\r\n    icon: 'inventory_2',\r\n    children: [\r\n      {\r\n        label: 'All Products',\r\n        icon: 'list',\r\n        route: '/products/all'\r\n      },\r\n      {\r\n        label: 'Categories',\r\n        icon: 'category',\r\n        route: '/products/categories'\r\n      },\r\n      {\r\n        label: 'Stock',\r\n        icon: 'warehouse',\r\n        route: '/products/stock',\r\n        badge: { value: 'Low', color: '#dc3545' }\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    label: 'Orders',\r\n    icon: 'shopping_cart',\r\n    badge: { value: 24, color: '#ffc107' },\r\n    children: [\r\n      {\r\n        label: 'Pending',\r\n        icon: 'pending',\r\n        route: '/orders/pending'\r\n      },\r\n      {\r\n        label: 'Completed',\r\n        icon: 'check_circle',\r\n        route: '/orders/completed'\r\n      }\r\n    ]\r\n  },\r\n  { separator: true },\r\n  {\r\n    label: 'Settings',\r\n    icon: 'settings',\r\n    route: '/settings'\r\n  }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 👤 **3. Configurar User Profile (Opcional)**\r\n\r\n\\`\\`\\`typescript\r\nuserProfile: UserProfile = {\r\n  name: 'Maria Silva',\r\n  email: 'maria@company.com',\r\n  avatar: 'https://i.pravatar.cc/150?img=45',\r\n  role: 'Administrator',\r\n  status: 'online'\r\n};\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## ⚡ **4. Configurar Quick Actions (Opcional)**\r\n\r\n\\`\\`\\`typescript\r\nquickActions: QuickAction[] = [\r\n  {\r\n    icon: 'settings',\r\n    label: 'Settings',\r\n    action: () => this.openSettings()\r\n  },\r\n  {\r\n    icon: 'help',\r\n    label: 'Help',\r\n    action: () => this.openHelp()\r\n  },\r\n  {\r\n    icon: 'logout',\r\n    label: 'Logout',\r\n    action: () => this.logout()\r\n  }\r\n];\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎨 **5. Template HTML**\r\n\r\n\\`\\`\\`html\r\n<web-sidebar\r\n  mode=\"push\"\r\n  position=\"left\"\r\n  [width]=\"280\"\r\n  [resizable]=\"true\"\r\n  [showToggle]=\"true\"\r\n  title=\"My Application\"\r\n  logo=\"🚀\"\r\n  [items]=\"menuItems\"\r\n  [userProfile]=\"userProfile\"\r\n  [quickActions]=\"quickActions\"\r\n  (openChange)=\"onSidebarToggle($event)\"\r\n  (itemClick)=\"onMenuItemClick($event)\">\r\n</web-sidebar>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 🎨 **Propriedades Disponíveis**\r\n\r\n| Propriedade | Tipo | Padrão | Descrição |\r\n|------------|------|--------|-----------|\r\n| mode | 'push' \\\\| 'overlay' \\\\| 'mini' \\\\| 'fixed' | 'push' | Modo de operação |\r\n| position | 'left' \\\\| 'right' | 'left' | Posição |\r\n| width | number | 280 | Largura |\r\n| resizable | boolean | false | Redimensionável |\r\n| items | MenuItem[] | [] | Menu |\r\n| userProfile | UserProfile | - | Usuário |\r\n| quickActions | QuickAction[] | [] | Ações rápidas |\r\n\r\n---\r\n\r\n## 📤 **Eventos**\r\n\r\n| Evento | Tipo | Descrição |\r\n|------|------|-----------|\r\n| itemClick | MenuItem | Clique em item |\r\n| openChange | boolean | Abre / fecha |\r\n\r\n---\r\n\r\n## 💡 **Dicas Importantes**\r\n\r\n- Use **Material Symbols Icons**\r\n- Sidebar é **responsivo automático**\r\n- Estado é salvo no **localStorage**\r\n- Rota ativa já vem implementada\r\n\r\n---\r\n\r\n**Pronto para uso em produção.** 🚀\r\n`\r\n  }  \r\n  },\r\n    layout: 'fullscreen',\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<SelectComponent>",
+                "defaultValue": "{\r\n  title: 'Form Controls/Select',\r\n  component: SelectComponent,\r\n  decorators: [\r\n    moduleMetadata({\r\n      imports: [SelectComponent, FormsModule],\r\n    }),\r\n  ],\r\n  tags: ['autodocs'],\r\n  parameters:{\r\n    docs:{\r\n      description:{\r\n        component: `\r\n \r\n---\r\n\r\n## 1️⃣ INSTALAÇÃO\r\n\r\n\\`\\`\\`bash\r\nnpm install @web/ui-components\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 2️⃣ IMPORT NO SEU COMPONENTE\r\n\r\n\\`\\`\\`ts\r\nimport { SelectComponent } from '@web/ui-components';\r\nimport { FormsModule } from '@angular/forms'; // Para [(ngModel)]\r\nimport { ReactiveFormsModule } from '@angular/forms'; // Para formControlName\r\n\r\n@Component({\r\n  selector: 'app-meu-componente',\r\n  standalone: true,\r\n  imports: [\r\n    SelectComponent,\r\n    FormsModule,        // ← Se usar [(ngModel)]\r\n    ReactiveFormsModule // ← Se usar Reactive Forms\r\n  ],\r\n  template: \\`\r\n    <web-select \r\n      label=\"Estado\"\r\n      [options]=\"estados\"\r\n      [(ngModel)]=\"estadoSelecionado\">\r\n    </web-select>\r\n  \\`\r\n})\r\nexport class MeuComponente {\r\n  estadoSelecionado = 'SP';\r\n\r\n  estados = [\r\n    { value: 'SP', label: 'São Paulo' },\r\n    { value: 'RJ', label: 'Rio de Janeiro' },\r\n    { value: 'MG', label: 'Minas Gerais' }\r\n  ];\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 3️⃣ USO NO TEMPLATE\r\n\r\n### Com Two-Way Binding [(ngModel)]\r\n\r\n\\`\\`\\`html\r\n<web-select \r\n  label=\"Selecione uma opção\"\r\n  placeholder=\"Escolha...\"\r\n  [options]=\"opcoes\"\r\n  [(ngModel)]=\"selecionado\">\r\n</web-select>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### Com Reactive Forms (formControlName)\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"meuForm\">\r\n  <web-select \r\n    label=\"Estado\"\r\n    placeholder=\"Selecione o estado\"\r\n    [options]=\"estados\"\r\n    formControlName=\"estado\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [error]=\"meuForm.get('estado')?.invalid && meuForm.get('estado')?.touched\"\r\n    errorMessage=\"Estado é obrigatório\">\r\n  </web-select>\r\n</form>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 4️⃣ EXEMPLO COMPLETO COM REACTIVE FORMS\r\n\r\n### NO COMPONENTE TYPESCRIPT\r\n\r\n\\`\\`\\`ts\r\nimport { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';\r\nimport { SelectComponent } from '@web/ui-components';\r\n\r\ninterface SelectOption {\r\n  value: string;\r\n  label: string;\r\n}\r\n\r\n@Component({\r\n  selector: 'app-cadastro',\r\n  standalone: true,\r\n  imports: [ReactiveFormsModule, SelectComponent],\r\n  templateUrl: './cadastro.component.html'\r\n})\r\nexport class CadastroComponent implements OnInit {\r\n  cadastroForm!: FormGroup;\r\n\r\n  paises: SelectOption[] = [\r\n    { value: 'BR', label: 'Brasil' },\r\n    { value: 'US', label: 'Estados Unidos' },\r\n    { value: 'AR', label: 'Argentina' }\r\n  ];\r\n\r\n  estados: SelectOption[] = [\r\n    { value: 'SP', label: 'São Paulo' },\r\n    { value: 'RJ', label: 'Rio de Janeiro' },\r\n    { value: 'MG', label: 'Minas Gerais' },\r\n    { value: 'RS', label: 'Rio Grande do Sul' }\r\n  ];\r\n\r\n  cidades: SelectOption[] = [];\r\n\r\n  cidadesPorEstado: { [key: string]: SelectOption[] } = {\r\n    'SP': [\r\n      { value: 'sao-paulo', label: 'São Paulo' },\r\n      { value: 'campinas', label: 'Campinas' },\r\n      { value: 'santos', label: 'Santos' }\r\n    ],\r\n    'RJ': [\r\n      { value: 'rio-janeiro', label: 'Rio de Janeiro' },\r\n      { value: 'niteroi', label: 'Niterói' }\r\n    ],\r\n    'MG': [\r\n      { value: 'bh', label: 'Belo Horizonte' },\r\n      { value: 'uberlandia', label: 'Uberlândia' }\r\n    ]\r\n  };\r\n\r\n  tecnologias: SelectOption[] = [\r\n    { value: 'angular', label: 'Angular' },\r\n    { value: 'react', label: 'React' },\r\n    { value: 'vue', label: 'Vue.js' },\r\n    { value: 'node', label: 'Node.js' }\r\n  ];\r\n\r\n  constructor(private fb: FormBuilder) {}\r\n\r\n  ngOnInit() {\r\n    this.cadastroForm = this.fb.group({\r\n      pais: ['BR', Validators.required],\r\n      estado: ['', Validators.required],\r\n      cidade: ['', Validators.required],\r\n      tecnologias: [[], Validators.required]\r\n    });\r\n\r\n    this.cadastroForm.get('estado')?.valueChanges.subscribe(estado => {\r\n      this.atualizarCidades(estado);\r\n      this.cadastroForm.patchValue({ cidade: '' });\r\n    });\r\n  }\r\n\r\n  atualizarCidades(estado: string) {\r\n    this.cidades = this.cidadesPorEstado[estado] || [];\r\n  }\r\n\r\n  isFieldInvalid(fieldName: string): boolean {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    return !!(field?.invalid && field?.touched);\r\n  }\r\n\r\n  getErrorMessage(fieldName: string): string {\r\n    const field = this.cadastroForm.get(fieldName);\r\n    if (field?.hasError('required')) {\r\n      return 'Este campo é obrigatório';\r\n    }\r\n    return '';\r\n  }\r\n\r\n  onSubmit() {\r\n    if (this.cadastroForm.valid) {\r\n      console.log('Dados:', this.cadastroForm.value);\r\n    } else {\r\n      Object.keys(this.cadastroForm.controls).forEach(key => {\r\n        this.cadastroForm.get(key)?.markAsTouched();\r\n      });\r\n    }\r\n  }\r\n}\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n### NO TEMPLATE HTML\r\n\r\n\\`\\`\\`html\r\n<form [formGroup]=\"cadastroForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n  <web-select\r\n    label=\"País\"\r\n    placeholder=\"Selecione o país\"\r\n    [options]=\"paises\"\r\n    formControlName=\"pais\"\r\n    [required]=\"true\"\r\n    [error]=\"isFieldInvalid('pais')\"\r\n    errorMessage=\"País é obrigatório\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Estado\"\r\n    placeholder=\"Selecione o estado\"\r\n    [options]=\"estados\"\r\n    formControlName=\"estado\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [error]=\"isFieldInvalid('estado')\"\r\n    errorMessage=\"Estado é obrigatório\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Cidade\"\r\n    placeholder=\"Selecione a cidade\"\r\n    [options]=\"cidades\"\r\n    formControlName=\"cidade\"\r\n    [required]=\"true\"\r\n    [searchable]=\"true\"\r\n    [disabled]=\"!cadastroForm.get('estado')?.value\"\r\n    [error]=\"isFieldInvalid('cidade')\"\r\n    errorMessage=\"Cidade é obrigatória\">\r\n  </web-select>\r\n\r\n  <web-select\r\n    label=\"Tecnologias\"\r\n    placeholder=\"Selecione suas tecnologias\"\r\n    [options]=\"tecnologias\"\r\n    formControlName=\"tecnologias\"\r\n    [multiple]=\"true\"\r\n    [searchable]=\"true\"\r\n    helperText=\"Selecione todas que você domina\">\r\n  </web-select>\r\n\r\n  <button type=\"submit\" [disabled]=\"cadastroForm.invalid\">\r\n    Cadastrar\r\n  </button>\r\n</form>\r\n\r\n<pre>{{ cadastroForm.value | json }}</pre>\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 5️⃣ SELECT DEPENDENTE (ESTADO → CIDADE)\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  estado: [''],\r\n  cidade: ['']\r\n});\r\n\r\nthis.form.get('estado')?.valueChanges.subscribe(estado => {\r\n  this.cidades = this.getCidadesPorEstado(estado);\r\n  this.form.patchValue({ cidade: '' });\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 6️⃣ SELECT MÚLTIPLO\r\n\r\n\\`\\`\\`html\r\n<web-select\r\n  label=\"Habilidades\"\r\n  [options]=\"habilidades\"\r\n  formControlName=\"minhasHabilidades\"\r\n  [multiple]=\"true\"\r\n  [searchable]=\"true\">\r\n</web-select>\r\n\\`\\`\\`\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  minhasHabilidades: [[]]\r\n});\r\n\r\nconsole.log(this.form.value);\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 7️⃣ DEFININDO VALOR INICIAL\r\n\r\n\\`\\`\\`ts\r\nthis.form = this.fb.group({\r\n  estado: ['SP']\r\n});\r\n\r\nthis.form.patchValue({\r\n  estado: 'RJ',\r\n  cidade: 'rio-janeiro'\r\n});\r\n\r\nthis.form.patchValue({\r\n  tecnologias: ['angular', 'typescript']\r\n});\r\n\\`\\`\\`\r\n\r\n---\r\n\r\n## 8️⃣ PARA COMPONENTES NÃO-STANDALONE (NgModule)\r\n\r\n\\`\\`\\`ts\r\nimport { SelectComponent } from '@web/ui-components';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\n\r\n@NgModule({\r\n  declarations: [MeuComponente],\r\n  imports: [\r\n    SelectComponent,\r\n    FormsModule,\r\n    ReactiveFormsModule\r\n  ]\r\n})\r\nexport class MeuModule {}\r\n\\`\\`\\`\r\n\r\n💡 **DICA:** Veja os exemplos abaixo para conhecer todas as variações disponíveis!\r\n        `\r\n      }\r\n    }\r\n  },\r\n  argTypes: {\r\n    multiple: {\r\n      control: 'boolean',\r\n      description: 'Permite seleção múltipla'\r\n    },\r\n    searchable: {\r\n      control: 'boolean',\r\n      description: 'Habilita busca nas opções'\r\n    },\r\n    clearable: {\r\n      control: 'boolean',\r\n      description: 'Mostra botão para limpar seleção'\r\n    },\r\n    useNative: {\r\n      control: 'boolean',\r\n      description: 'Usa select nativo do HTML'\r\n    }\r\n  }\r\n}"
             },
             {
                 "name": "meta",
@@ -3374,21 +3374,21 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n    size: 'small',\r\n  }\r\n}"
-            },
-            {
-                "name": "Small",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/web-components/src/lib/components/modal/modal.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      isOpen: false,\r\n      open() { (this as any).isOpen = true; }\r\n    },\r\n    template: `\r\n      <button (click)=\"open()\" style=\"padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;\">\r\n        Modal Pequeno\r\n      </button>\r\n      \r\n      <web-modal\r\n        [isOpen]=\"isOpen\"\r\n        title=\"Confirmação\"\r\n        size=\"small\"\r\n        (closed)=\"isOpen = false\">\r\n        <p style=\"margin: 0;\">Ideal para confirmações rápidas e alertas.</p>\r\n      </web-modal>\r\n    `\r\n  })\r\n}"
+            },
+            {
+                "name": "Small",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    items: basicItems,\r\n    size: 'small',\r\n  }\r\n}"
             },
             {
                 "name": "Small",
@@ -4809,17 +4809,6 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<CarouselComponent>",
-                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 184
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
                 "file": "projects/web-components/src/lib/components/button/button.stories.ts",
                 "deprecated": false,
@@ -4833,6 +4822,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<CheckboxComponent>",
                 "file": "projects/web-components/src/lib/components/checkbox/checkbox.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<CarouselComponent>",
+                "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -4875,30 +4875,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<MenuComponent>",
-                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 184
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<InputComponent>",
                 "file": "projects/web-components/src/lib/components/input/input.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 184
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<ProgressComponent>",
-                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -4919,8 +4897,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<RadioComponent>",
-                "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
+                "rawtype": "StoryObj<MenuComponent>",
+                "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -4930,8 +4908,19 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<SelectComponent>",
-                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
+                "rawtype": "StoryObj<ProgressComponent>",
+                "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<RadioComponent>",
+                "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -4954,6 +4943,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<SidebarComponent>",
                 "file": "projects/web-components/src/lib/components/sidebar/sidebar.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<SelectComponent>",
+                "file": "projects/web-components/src/lib/components/select/select.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -9887,19 +9887,6 @@
                     "kind": 184
                 }
             ],
-            "projects/web-components/src/lib/components/carousel/carousel.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<CarouselComponent>",
-                    "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 184
-                }
-            ],
             "projects/web-components/src/lib/components/button/button.stories.ts": [
                 {
                     "name": "Story",
@@ -9920,6 +9907,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<CheckboxComponent>",
                     "file": "projects/web-components/src/lib/components/checkbox/checkbox.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "projects/web-components/src/lib/components/carousel/carousel.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<CarouselComponent>",
+                    "file": "projects/web-components/src/lib/components/carousel/carousel.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -9965,19 +9965,6 @@
                     "kind": 184
                 }
             ],
-            "projects/web-components/src/lib/components/menu/menu.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<MenuComponent>",
-                    "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 184
-                }
-            ],
             "projects/web-components/src/lib/components/input/input.stories.ts": [
                 {
                     "name": "Story",
@@ -9985,19 +9972,6 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<InputComponent>",
                     "file": "projects/web-components/src/lib/components/input/input.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 184
-                }
-            ],
-            "projects/web-components/src/lib/components/progress/progress.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<ProgressComponent>",
-                    "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -10017,6 +9991,32 @@
                     "kind": 184
                 }
             ],
+            "projects/web-components/src/lib/components/menu/menu.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<MenuComponent>",
+                    "file": "projects/web-components/src/lib/components/menu/menu.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "projects/web-components/src/lib/components/progress/progress.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ProgressComponent>",
+                    "file": "projects/web-components/src/lib/components/progress/progress.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
             "projects/web-components/src/lib/components/radio/radio.stories.ts": [
                 {
                     "name": "Story",
@@ -10024,19 +10024,6 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<RadioComponent>",
                     "file": "projects/web-components/src/lib/components/radio/radio.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 184
-                }
-            ],
-            "projects/web-components/src/lib/components/select/select.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<SelectComponent>",
-                    "file": "projects/web-components/src/lib/components/select/select.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -10063,6 +10050,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<SidebarComponent>",
                     "file": "projects/web-components/src/lib/components/sidebar/sidebar.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "projects/web-components/src/lib/components/select/select.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<SelectComponent>",
+                    "file": "projects/web-components/src/lib/components/select/select.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",

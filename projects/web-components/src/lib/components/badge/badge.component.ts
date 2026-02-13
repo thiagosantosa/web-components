@@ -92,10 +92,12 @@ export type BadgePosition = 'top-right' | 'top-left' | 'bottom-right' | 'bottom-
       display: inline-flex;
       align-items: center;
       gap: 4px;
+      padding: 3px;
       font-weight: 600;
       white-space: nowrap;
       transition: all 0.2s;
       position: relative;
+      border-radius: 5px;
     }
 
     /* Sizes */

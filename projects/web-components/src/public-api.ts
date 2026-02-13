@@ -25,3 +25,7 @@ export * from './lib/components/list/list.component';
 export * from './lib/components/tree/tree.component';
 export * from './lib/components/button-toggle/button-toggle.component';
 export * from './lib/components/badge/badge.component';
+export * from './lib/components/badge/badge.component';
+export * from './lib/components/chips/chips.component';
+export * from './lib/components/icon/icon.component';
+export * from './lib/components/progress-spinner/progress-spinner.component';

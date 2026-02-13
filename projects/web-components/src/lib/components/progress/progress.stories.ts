@@ -2,7 +2,7 @@
  * ========================================
  * 📊 PROGRESS BAR MODERNO - MUITO ALÉM DO MATERIAL/BOOTSTRAP!
  * ========================================
- * 
+ *
  * DIFERENCIAIS:
  * ✅ 8 variantes visuais únicas
  * ✅ Animação de valores suave
@@ -19,7 +19,7 @@ import { ProgressComponent, ProgressStep } from './progress.component';
 import { CommonModule } from '@angular/common';
 
 const meta: Meta<ProgressComponent> = {
-  title: 'Form Controls/Progress',
+  title: 'Buttons & Indicators/Progress',
   component: ProgressComponent,
   tags: ['autodocs'],
   decorators: [
@@ -144,22 +144,22 @@ export const AllSizes: Story = {
           <p style="margin: 0 0 0.5rem 0; font-family: Montserrat; font-weight: 600;">Extra Small (xs - 4px)</p>
           <web-progress [value]="75" size="xs"></web-progress>
         </div>
-        
+
         <div>
           <p style="margin: 0 0 0.5rem 0; font-family: Montserrat; font-weight: 600;">Small (sm - 8px)</p>
           <web-progress [value]="75" size="sm"></web-progress>
         </div>
-        
+
         <div>
           <p style="margin: 0 0 0.5rem 0; font-family: Montserrat; font-weight: 600;">Medium (md - 12px)</p>
           <web-progress [value]="75" size="md"></web-progress>
         </div>
-        
+
         <div>
           <p style="margin: 0 0 0.5rem 0; font-family: Montserrat; font-weight: 600;">Large (lg - 16px)</p>
           <web-progress [value]="75" size="lg"></web-progress>
         </div>
-        
+
         <div>
           <p style="margin: 0 0 0.5rem 0; font-family: Montserrat; font-weight: 600;">Extra Large (xl - 24px)</p>
           <web-progress [value]="75" size="xl" [showInnerLabel]="true"></web-progress>
@@ -212,12 +212,12 @@ export const AnimatedProgress: Story = {
     },
     template: `
       <div style="padding: 1rem;">
-        <button 
+        <button
           (click)="startProgress()"
           style="margin-bottom: 1.5rem; padding: 0.75rem 1.5rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; font-family: Montserrat; font-weight: 600; cursor: pointer;">
           Iniciar Progresso
         </button>
-        
+
         <web-progress
           [value]="progress"
           variant="gradient"
@@ -262,23 +262,23 @@ export const LiveProgress: Story = {
     template: `
       <div style="padding: 1rem;">
         <div style="display: flex; gap: 0.75rem; margin-bottom: 1.5rem;">
-          <button 
+          <button
             (click)="start()"
             style="padding: 0.75rem 1.5rem; background: #10b981; color: white; border: none; border-radius: 0.5rem; font-family: Montserrat; font-weight: 600; cursor: pointer;">
             Iniciar
           </button>
-          <button 
+          <button
             (click)="stop()"
             style="padding: 0.75rem 1.5rem; background: #dc3545; color: white; border: none; border-radius: 0.5rem; font-family: Montserrat; font-weight: 600; cursor: pointer;">
             Parar
           </button>
-          <button 
+          <button
             (click)="reset()"
             style="padding: 0.75rem 1.5rem; background: #6c757d; color: white; border: none; border-radius: 0.5rem; font-family: Montserrat; font-weight: 600; cursor: pointer;">
             Resetar
           </button>
         </div>
-        
+
         <web-progress
           [value]="value"
           variant="glow"
@@ -336,29 +336,29 @@ export const CheckoutSteps: Story = {
     variant: 'steps',
     size: 'lg',
     steps: [
-      { 
-        label: 'Carrinho', 
+      {
+        label: 'Carrinho',
         description: '3 itens',
-        icon: 'shopping_cart', 
-        completed: true 
+        icon: 'shopping_cart',
+        completed: true
       },
-      { 
-        label: 'Entrega', 
+      {
+        label: 'Entrega',
         description: 'Endereço',
-        icon: 'local_shipping', 
-        completed: true 
+        icon: 'local_shipping',
+        completed: true
       },
-      { 
-        label: 'Pagamento', 
+      {
+        label: 'Pagamento',
         description: 'Cartão',
-        icon: 'payment', 
-        completed: false 
+        icon: 'payment',
+        completed: false
       },
-      { 
-        label: 'Confirmação', 
+      {
+        label: 'Confirmação',
         description: 'Finalizar',
-        icon: 'check_circle', 
-        completed: false 
+        icon: 'check_circle',
+        completed: false
       }
     ],
     activeStep: 2,
@@ -379,7 +379,7 @@ export const Dashboard: Story = {
           [strokeWidth]="10"
           color="#009ADA">
         </web-progress>
-        
+
         <web-progress
           variant="circular"
           [value]="62"
@@ -388,7 +388,7 @@ export const Dashboard: Story = {
           [strokeWidth]="10"
           color="#10b981">
         </web-progress>
-        
+
         <web-progress
           variant="circular"
           [value]="45"
@@ -397,7 +397,7 @@ export const Dashboard: Story = {
           [strokeWidth]="10"
           color="#ffc107">
         </web-progress>
-        
+
         <web-progress
           variant="circular"
           [value]="90"

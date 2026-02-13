@@ -232,7 +232,7 @@ import { BadgeComponent } from './badge.component';
  * 8. **Versões**: Indicadores de versão (Beta, v2.0)
  */
 const meta: Meta<BadgeComponent> = {
-  title: 'Components/Badge',
+  title: 'Buttons & Indicators/Badge',
   component: BadgeComponent,
   tags: ['autodocs'],
   argTypes: {

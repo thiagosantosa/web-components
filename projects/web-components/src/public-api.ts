@@ -25,7 +25,15 @@ export * from './lib/components/list/list.component';
 export * from './lib/components/tree/tree.component';
 export * from './lib/components/button-toggle/button-toggle.component';
 export * from './lib/components/badge/badge.component';
-export * from './lib/components/badge/badge.component';
 export * from './lib/components/chips/chips.component';
 export * from './lib/components/icon/icon.component';
 export * from './lib/components/progress-spinner/progress-spinner.component';
+export * from './lib/components/ripple/ripple.directive';
+export * from './lib/components/bottom-sheet/bottom-sheet.component';
+export * from './lib/components/snackbar/snackbar.service';
+export {
+  SnackbarPosition,
+  SnackbarType,
+  SnackbarVariant
+} from './lib/components/snackbar/snackbar.component';
+

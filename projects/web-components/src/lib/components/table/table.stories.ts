@@ -107,7 +107,7 @@ onRowClick(row: any) {
 <web-table [columns]="columns" [data]="usuarios">
   <ng-template let-row="row" let-column="column">
     <ng-container [ngSwitch]="column.key">
-      
+
       <span *ngSwitchCase="'status'">
         <strong [style.color]="row.status === 'Ativo' ? 'green' : 'red'">
           {{ row.status }}
@@ -165,7 +165,7 @@ export class MeuModule {}
 
 ❌ ERRO COMUM
 --------------
-❌ Passar dados que não batem com as keys das colunas  
+❌ Passar dados que não batem com as keys das colunas
 ✅ As propriedades dos objetos devem existir no array data
 
 💡 DICA: Use Table para exibir listas, relatórios e dashboards de forma organizada!
@@ -440,14 +440,14 @@ export const CustomFormat: Story = {
     title: 'Com Formatação',
     columns: [
       { key: 'name', label: 'Nome', sortable: true },
-      { 
-        key: 'email', 
-        label: 'E-mail', 
+      {
+        key: 'email',
+        label: 'E-mail',
         format: (value: string) => value.toLowerCase()
       },
-      { 
-        key: 'salary', 
-        label: 'Salário', 
+      {
+        key: 'salary',
+        label: 'Salário',
         sortable: true,
         align: 'right',
         format: (value: number) => `R$ ${value.toLocaleString('pt-BR')}`

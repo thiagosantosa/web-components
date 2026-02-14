@@ -2,7 +2,7 @@ import { Meta, StoryObj, moduleMetadata } from '@storybook/angular';
 import { TooltipComponent } from './tooltip.component';
 
 const meta: Meta<TooltipComponent> = {
-  title: 'Layout/Tooltip',
+  title: 'Popups & Modals/Tooltip',
   component: TooltipComponent,
   tags: ['autodocs'],
   decorators: [
@@ -96,8 +96,8 @@ export class MyComponent {}
 ### Cor Customizada
 
 \`\`\`html
-<web-tooltip 
-  content="Tooltip da marca web" 
+<web-tooltip
+  content="Tooltip da marca web"
   icon="school"
   customBgColor="#009ADA"
   customTextColor="#ffffff">
@@ -211,7 +211,7 @@ hideTooltip() {
 ### Delays Personalizados
 
 \`\`\`html
-<web-tooltip 
+<web-tooltip
   content="Aguarda 500ms para aparecer"
   [showDelay]="500"
   [hideDelay]="200">
@@ -273,14 +273,14 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 ### Cores Sólidas
 
 \`\`\`html
-<web-tooltip 
+<web-tooltip
   content="Tooltip roxo"
   customBgColor="#8b5cf6"
   customTextColor="#ffffff">
   <button>Roxo</button>
 </web-tooltip>
 
-<web-tooltip 
+<web-tooltip
   content="Tooltip rosa"
   customBgColor="#ec4899"
   customTextColor="#ffffff">
@@ -291,7 +291,7 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 ### Com Gradiente
 
 \`\`\`html
-<web-tooltip 
+<web-tooltip
   content="Tooltip com gradiente"
   customBgColor="linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
   customTextColor="#ffffff">
@@ -303,7 +303,7 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 
 \`\`\`html
 <!-- web Official Blue -->
-<web-tooltip 
+<web-tooltip
   content="Cor oficial web"
   icon="school"
   customBgColor="#009ADA"
@@ -344,7 +344,7 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 | \`tooltipHide\` | EventEmitter<void> | Emitido quando o tooltip desaparece |
 
 \`\`\`html
-<web-tooltip 
+<web-tooltip
   content="Teste"
   (tooltipShow)="onTooltipShow()"
   (tooltipHide)="onTooltipHide()">
@@ -361,8 +361,8 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 \`\`\`html
 <label>
   Email
-  <web-tooltip 
-    content="Digite um email válido para recuperação de senha" 
+  <web-tooltip
+    content="Digite um email válido para recuperação de senha"
     icon="info"
     variant="info"
     position="right">
@@ -387,8 +387,8 @@ Use qualquer ícone do [Material Symbols](https://fonts.google.com/icons):
 ### 3. Status Indicators
 
 \`\`\`html
-<web-tooltip 
-  content="Sistema operacional" 
+<web-tooltip
+  content="Sistema operacional"
   icon="check_circle"
   variant="success">
   <div class="status-dot green"></div>
@@ -497,66 +497,66 @@ export const AllPositions: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; font-family: Montserrat;">
-        
+
         <!-- Top -->
         <web-tooltip content="Top" position="top">
           <button class="demo-btn">Top</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Top Start" position="top-start">
           <button class="demo-btn">Top Start</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Top End" position="top-end">
           <button class="demo-btn">Top End</button>
         </web-tooltip>
-        
+
         <div></div>
-        
+
         <!-- Bottom -->
         <web-tooltip content="Bottom" position="bottom">
           <button class="demo-btn">Bottom</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Bottom Start" position="bottom-start">
           <button class="demo-btn">Bottom Start</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Bottom End" position="bottom-end">
           <button class="demo-btn">Bottom End</button>
         </web-tooltip>
-        
+
         <div></div>
-        
+
         <!-- Left -->
         <web-tooltip content="Left" position="left">
           <button class="demo-btn">Left</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Left Start" position="left-start">
           <button class="demo-btn">Left Start</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Left End" position="left-end">
           <button class="demo-btn">Left End</button>
         </web-tooltip>
-        
+
         <div></div>
-        
+
         <!-- Right -->
         <web-tooltip content="Right" position="right">
           <button class="demo-btn">Right</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Right Start" position="right-start">
           <button class="demo-btn">Right Start</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Right End" position="right-end">
           <button class="demo-btn">Right End</button>
         </web-tooltip>
       </div>
-      
+
       <style>
         .demo-btn {
           padding: 0.5rem 1rem;
@@ -584,33 +584,33 @@ export const AllVariants: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 1rem; flex-wrap: wrap; font-family: Montserrat;">
-        
+
         <web-tooltip content="Default tooltip" variant="default">
           <button class="btn-default">Default</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Informação adicional aqui" variant="info">
           <button class="btn-info">Info</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Operação realizada com sucesso!" variant="success">
           <button class="btn-success">Success</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Atenção: verifique os dados" variant="warning">
           <button class="btn-warning">Warning</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Erro: operação falhou" variant="error">
           <button class="btn-error">Error</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Modo escuro ativado" variant="dark">
           <button class="btn-dark">Dark</button>
         </web-tooltip>
-        
+
       </div>
-      
+
       <style>
         button {
           padding: 0.75rem 1.5rem;
@@ -639,33 +639,33 @@ export const DifferentTriggers: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat;">
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Hover (padrão)</p>
           <web-tooltip content="Aparece ao passar o mouse" trigger="hover">
             <button class="demo-btn">Hover Me</button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Click</p>
           <web-tooltip content="Aparece ao clicar" trigger="click">
             <button class="demo-btn">Click Me</button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Focus</p>
           <web-tooltip content="Aparece ao focar" trigger="focus">
-            <input 
-              type="text" 
+            <input
+              type="text"
               placeholder="Focus me"
               style="padding: 0.75rem; border: 2px solid #d1d5db; border-radius: 0.375rem; font-family: Montserrat;">
           </web-tooltip>
         </div>
-        
+
       </div>
-      
+
       <style>
         .demo-btn {
           padding: 0.75rem 1.5rem;
@@ -721,30 +721,30 @@ export const WithDelays: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat;">
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Sem Delay</p>
           <web-tooltip content="Aparece instantaneamente">
             <button class="demo-btn">Instantâneo</button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Show Delay 500ms</p>
           <web-tooltip content="Aguarda 500ms para aparecer" [showDelay]="500">
             <button class="demo-btn">Com Delay</button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Hide Delay 1000ms</p>
           <web-tooltip content="Demora 1s para sumir" [hideDelay]="1000">
             <button class="demo-btn">Delay ao Sair</button>
           </web-tooltip>
         </div>
-        
+
       </div>
-      
+
       <style>
         .demo-btn {
           padding: 0.75rem 1.5rem;
@@ -788,8 +788,8 @@ export const FormHelp: Story = {
         <div style="margin-bottom: 1.5rem;">
           <label style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; font-weight: 600;">
             Email
-            <web-tooltip 
-              content="Digite um email válido para recuperação de senha" 
+            <web-tooltip
+              content="Digite um email válido para recuperação de senha"
               variant="info"
               position="right">
               <span style="display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; background: #009ADA; color: white; border-radius: 50%; font-size: 0.75rem; cursor: help;">
@@ -797,16 +797,16 @@ export const FormHelp: Story = {
               </span>
             </web-tooltip>
           </label>
-          <input 
-            type="email" 
+          <input
+            type="email"
             placeholder="seu@email.com"
             style="width: 100%; padding: 0.75rem; border: 2px solid #d1d5db; border-radius: 0.375rem; font-family: Montserrat;">
         </div>
-        
+
         <div style="margin-bottom: 1.5rem;">
           <label style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; font-weight: 600;">
             Senha
-            <web-tooltip 
+            <web-tooltip
               variant="warning"
               position="right">
               <span style="display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; background: #f59e0b; color: white; border-radius: 50%; font-size: 0.75rem; cursor: help;">
@@ -823,8 +823,8 @@ export const FormHelp: Story = {
               </ng-template>
             </web-tooltip>
           </label>
-          <input 
-            type="password" 
+          <input
+            type="password"
             placeholder="••••••••"
             style="width: 100%; padding: 0.75rem; border: 2px solid #d1d5db; border-radius: 0.375rem; font-family: Montserrat;">
         </div>
@@ -838,29 +838,29 @@ export const IconButtons: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 0.5rem;">
-        
+
         <web-tooltip content="Editar" position="bottom">
           <button class="icon-btn">✏️</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Deletar" variant="error" position="bottom">
           <button class="icon-btn">🗑️</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Compartilhar" variant="info" position="bottom">
           <button class="icon-btn">📤</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Download" variant="success" position="bottom">
           <button class="icon-btn">⬇️</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Favoritar" variant="warning" position="bottom">
           <button class="icon-btn">⭐</button>
         </web-tooltip>
-        
+
       </div>
-      
+
       <style>
         .icon-btn {
           width: 40px;
@@ -887,28 +887,28 @@ export const StatusIndicators: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; flex-direction: column; gap: 1rem; max-width: 400px; font-family: Montserrat;">
-        
+
         <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
           <web-tooltip content="Sistema operacional" variant="success">
             <div style="width: 12px; height: 12px; background: #10b981; border-radius: 50%; cursor: help;"></div>
           </web-tooltip>
           <span>Backend API</span>
         </div>
-        
+
         <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
           <web-tooltip content="Processando requisições" variant="warning">
             <div style="width: 12px; height: 12px; background: #f59e0b; border-radius: 50%; cursor: help;"></div>
           </web-tooltip>
           <span>Database</span>
         </div>
-        
+
         <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 0.5rem;">
           <web-tooltip content="Serviço indisponível" variant="error">
             <div style="width: 12px; height: 12px; background: #ef4444; border-radius: 50%; cursor: help;"></div>
           </web-tooltip>
           <span>Payment Gateway</span>
         </div>
-        
+
       </div>
     `
   })
@@ -919,7 +919,7 @@ export const KeyboardShortcuts: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; flex-direction: column; gap: 1rem; max-width: 300px; font-family: Montserrat;">
-        
+
         <web-tooltip position="right">
           <button class="menu-item">
             💾 Salvar
@@ -932,7 +932,7 @@ export const KeyboardShortcuts: Story = {
             </div>
           </ng-template>
         </web-tooltip>
-        
+
         <web-tooltip position="right">
           <button class="menu-item">
             📋 Copiar
@@ -945,7 +945,7 @@ export const KeyboardShortcuts: Story = {
             </div>
           </ng-template>
         </web-tooltip>
-        
+
         <web-tooltip position="right">
           <button class="menu-item">
             🔍 Buscar
@@ -958,9 +958,9 @@ export const KeyboardShortcuts: Story = {
             </div>
           </ng-template>
         </web-tooltip>
-        
+
       </div>
-      
+
       <style>
         .menu-item {
           width: 100%;
@@ -993,35 +993,35 @@ export const EdgeDetection: Story = {
         <p style="text-align: center; margin-bottom: 1rem; font-weight: 600;">
           Mova os tooltips para as bordas - eles se reposicionam automaticamente!
         </p>
-        
+
         <!-- Top Left -->
         <web-tooltip content="Tento aparecer embaixo se não couber em cima" position="top">
           <button style="position: absolute; top: 10px; left: 10px; padding: 0.5rem 1rem; background: #009ADA; color: white; border: none; border-radius: 0.375rem; cursor: pointer;">
             Top Left
           </button>
         </web-tooltip>
-        
+
         <!-- Top Right -->
         <web-tooltip content="Me reposiciono se passar da borda direita" position="right">
           <button style="position: absolute; top: 10px; right: 10px; padding: 0.5rem 1rem; background: #009ADA; color: white; border: none; border-radius: 0.375rem; cursor: pointer;">
             Top Right
           </button>
         </web-tooltip>
-        
+
         <!-- Bottom Left -->
         <web-tooltip content="Ajusto se ultrapassar a borda esquerda" position="left">
           <button style="position: absolute; bottom: 10px; left: 10px; padding: 0.5rem 1rem; background: #009ADA; color: white; border: none; border-radius: 0.375rem; cursor: pointer;">
             Bottom Left
           </button>
         </web-tooltip>
-        
+
         <!-- Bottom Right -->
         <web-tooltip content="Tento aparecer em cima se não couber embaixo" position="bottom">
           <button style="position: absolute; bottom: 10px; right: 10px; padding: 0.5rem 1rem; background: #009ADA; color: white; border: none; border-radius: 0.375rem; cursor: pointer;">
             Bottom Right
           </button>
         </web-tooltip>
-        
+
         <!-- Center -->
         <web-tooltip content="No centro funciono perfeitamente em qualquer direção!" position="top" variant="success">
           <button style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 0.75rem 1.5rem; background: #10b981; color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">
@@ -1040,41 +1040,41 @@ export const WithIcons: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat; flex-wrap: wrap;">
-        
+
         <web-tooltip content="Informação importante" icon="info" variant="info">
           <button class="demo-btn">Info Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Operação concluída!" icon="check_circle" variant="success">
           <button class="demo-btn">Success Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Atenção necessária" icon="warning" variant="warning">
           <button class="demo-btn">Warning Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Erro encontrado" icon="error" variant="error">
           <button class="demo-btn">Error Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Favoritar este item" icon="star" variant="default">
           <button class="demo-btn">Star Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Download disponível" icon="download" variant="info">
           <button class="demo-btn">Download Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Editar informações" icon="edit" variant="default">
           <button class="demo-btn">Edit Icon</button>
         </web-tooltip>
-        
+
         <web-tooltip content="Deletar permanentemente" icon="delete" variant="error">
           <button class="demo-btn">Delete Icon</button>
         </web-tooltip>
-        
+
       </div>
-      
+
       <style>
         .demo-btn {
           padding: 0.75rem 1.5rem;
@@ -1099,31 +1099,31 @@ export const IconPositions: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat;">
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Ícone à Esquerda</p>
-          <web-tooltip 
-            content="Ícone à esquerda do texto" 
-            icon="info" 
+          <web-tooltip
+            content="Ícone à esquerda do texto"
+            icon="info"
             iconPosition="left"
             variant="info">
             <button class="demo-btn">Left Icon</button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Ícone à Direita</p>
-          <web-tooltip 
-            content="Ícone à direita do texto" 
-            icon="arrow_forward" 
+          <web-tooltip
+            content="Ícone à direita do texto"
+            icon="arrow_forward"
             iconPosition="right"
             variant="success">
             <button class="demo-btn">Right Icon</button>
           </web-tooltip>
         </div>
-        
+
       </div>
-      
+
       <style>
         .demo-btn {
           padding: 0.75rem 1.5rem;
@@ -1147,9 +1147,9 @@ export const CustomColors: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat; flex-wrap: wrap;">
-        
-        <web-tooltip 
-          content="Tooltip roxo personalizado" 
+
+        <web-tooltip
+          content="Tooltip roxo personalizado"
           icon="palette"
           customBgColor="#8b5cf6"
           customTextColor="#ffffff">
@@ -1157,9 +1157,9 @@ export const CustomColors: Story = {
             Roxo
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip rosa personalizado" 
+
+        <web-tooltip
+          content="Tooltip rosa personalizado"
           icon="favorite"
           customBgColor="#ec4899"
           customTextColor="#ffffff">
@@ -1167,9 +1167,9 @@ export const CustomColors: Story = {
             Rosa
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip azul escuro" 
+
+        <web-tooltip
+          content="Tooltip azul escuro"
           icon="nights_stay"
           customBgColor="#1e3a8a"
           customTextColor="#ffffff">
@@ -1177,9 +1177,9 @@ export const CustomColors: Story = {
             Azul Escuro
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip laranja vibrante" 
+
+        <web-tooltip
+          content="Tooltip laranja vibrante"
           icon="local_fire_department"
           customBgColor="#ff6b35"
           customTextColor="#ffffff">
@@ -1187,9 +1187,9 @@ export const CustomColors: Story = {
             Laranja
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip verde limão" 
+
+        <web-tooltip
+          content="Tooltip verde limão"
           icon="eco"
           customBgColor="#84cc16"
           customTextColor="#1f2937">
@@ -1197,9 +1197,9 @@ export const CustomColors: Story = {
             Verde Limão
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip ciano" 
+
+        <web-tooltip
+          content="Tooltip ciano"
           icon="water_drop"
           customBgColor="#06b6d4"
           customTextColor="#ffffff">
@@ -1207,9 +1207,9 @@ export const CustomColors: Story = {
             Ciano
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tooltip gradiente simulado" 
+
+        <web-tooltip
+          content="Tooltip gradiente simulado"
           icon="gradient"
           customBgColor="linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
           customTextColor="#ffffff">
@@ -1217,9 +1217,9 @@ export const CustomColors: Story = {
             Gradiente
           </button>
         </web-tooltip>
-        
-        <web-tooltip 
-          content="Tema escuro com texto claro" 
+
+        <web-tooltip
+          content="Tema escuro com texto claro"
           icon="dark_mode"
           customBgColor="#0a0a0a"
           customTextColor="#f5f5f5">
@@ -1227,7 +1227,7 @@ export const CustomColors: Story = {
             Dark Theme
           </button>
         </web-tooltip>
-        
+
       </div>
     `
   })
@@ -1238,11 +1238,11 @@ export const BrandedTooltips: Story = {
   render: () => ({
     template: `
       <div style="padding: 3rem; display: flex; gap: 2rem; font-family: Montserrat;">
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">web Blue</p>
-          <web-tooltip 
-            content="Cor oficial da web" 
+          <web-tooltip
+            content="Cor oficial da web"
             icon="school"
             customBgColor="#009ADA"
             customTextColor="#ffffff">
@@ -1251,11 +1251,11 @@ export const BrandedTooltips: Story = {
             </button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Custom Brand 1</p>
-          <web-tooltip 
-            content="Sua marca aqui" 
+          <web-tooltip
+            content="Sua marca aqui"
             icon="business"
             customBgColor="#6366f1"
             customTextColor="#ffffff">
@@ -1264,11 +1264,11 @@ export const BrandedTooltips: Story = {
             </button>
           </web-tooltip>
         </div>
-        
+
         <div style="text-align: center;">
           <p style="margin-bottom: 1rem; font-weight: 600;">Custom Brand 2</p>
-          <web-tooltip 
-            content="Sua marca aqui" 
+          <web-tooltip
+            content="Sua marca aqui"
             icon="storefront"
             customBgColor="#f97316"
             customTextColor="#ffffff">
@@ -1277,7 +1277,7 @@ export const BrandedTooltips: Story = {
             </button>
           </web-tooltip>
         </div>
-        
+
       </div>
     `
   })
@@ -1289,92 +1289,92 @@ export const IconsShowcase: Story = {
     template: `
       <div style="padding: 3rem; font-family: Montserrat;">
         <h3 style="margin-bottom: 2rem;">Ícones Comuns do Material Symbols</h3>
-        
+
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem;">
-          
+
           <web-tooltip content="Informação" icon="info" variant="info">
             <div class="icon-card">info</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Check" icon="check_circle" variant="success">
             <div class="icon-card">check_circle</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Aviso" icon="warning" variant="warning">
             <div class="icon-card">warning</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Erro" icon="error" variant="error">
             <div class="icon-card">error</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Ajuda" icon="help" variant="info">
             <div class="icon-card">help</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Configurações" icon="settings" variant="default">
             <div class="icon-card">settings</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Buscar" icon="search" variant="default">
             <div class="icon-card">search</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Notificação" icon="notifications" variant="warning">
             <div class="icon-card">notifications</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Favorito" icon="favorite" variant="error">
             <div class="icon-card">favorite</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Estrela" icon="star" variant="warning">
             <div class="icon-card">star</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Home" icon="home" variant="default">
             <div class="icon-card">home</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Usuário" icon="person" variant="info">
             <div class="icon-card">person</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Email" icon="email" variant="info">
             <div class="icon-card">email</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Telefone" icon="phone" variant="success">
             <div class="icon-card">phone</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Localização" icon="location_on" variant="error">
             <div class="icon-card">location_on</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Download" icon="download" variant="success">
             <div class="icon-card">download</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Upload" icon="upload" variant="info">
             <div class="icon-card">upload</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Compartilhar" icon="share" variant="info">
             <div class="icon-card">share</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Editar" icon="edit" variant="default">
             <div class="icon-card">edit</div>
           </web-tooltip>
-          
+
           <web-tooltip content="Deletar" icon="delete" variant="error">
             <div class="icon-card">delete</div>
           </web-tooltip>
-          
+
         </div>
       </div>
-      
+
       <style>
         .icon-card {
           padding: 1rem;

@@ -3,7 +3,7 @@ import { ModalComponent } from './modal.component';
 import { FormsModule } from '@angular/forms';
 
 const meta: Meta<ModalComponent> = {
-  title: 'Layout/Modal',
+  title: 'Popups & Modals/Modal',
   component: ModalComponent,
   tags: ['autodocs'],
   parameters: {
@@ -236,18 +236,18 @@ export const Default: Story = {
       }
     },
     template: `
-      <button 
+      <button
         (click)="openModal()"
         style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; font-family: Montserrat; font-weight: 600; cursor: pointer; font-size: 1rem;">
         Abrir Modal
       </button>
-      
+
       <web-modal
         [isOpen]="isModalOpen"
         title="Modal Básico"
         subtitle="Este é um exemplo de modal simples"
         (closed)="isModalOpen = false">
-        
+
         <div style="display: flex; flex-direction: column; gap: 1rem;">
           <p style="margin: 0; line-height: 1.6;">
             Este é um modal moderno e elegante com design premium.
@@ -269,12 +269,12 @@ export const WithIcon: Story = {
       open() { (this as any).isOpen = true; }
     },
     template: `
-      <button 
+      <button
         (click)="open()"
         style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">
         Modal com Ícone
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Sucesso!"
@@ -300,7 +300,7 @@ export const Small: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal Pequeno
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Confirmação"
@@ -322,7 +322,7 @@ export const Large: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal Grande
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Formulário Extenso"
@@ -351,7 +351,7 @@ export const ExtraLarge: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal XL
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Dashboard"
@@ -378,7 +378,7 @@ export const Fullscreen: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal com Fullscreen
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Editor de Documento"
@@ -387,7 +387,7 @@ export const Fullscreen: Story = {
         iconColor="#2563eb"
         [fullscreenable]="true"
         (closed)="isOpen = false">
-        
+
         <div style="padding: 1.5rem; background: #f3f4f6; border-radius: 0.5rem;">
           <h4 style="margin: 0 0 1rem 0;">🎯 Recurso Premium: Fullscreen</h4>
           <p style="margin: 0; line-height: 1.6;">
@@ -413,7 +413,7 @@ export const Minimizable: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal Minimizável
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Chat de Suporte"
@@ -422,7 +422,7 @@ export const Minimizable: Story = {
         iconColor="#009ADA"
         [minimizable]="true"
         (closed)="isOpen = false">
-        
+
         <div style="padding: 1.5rem; background: #dbeafe; border-radius: 0.5rem;">
           <h4 style="margin: 0 0 1rem 0;">💬 Recurso Premium: Minimize</h4>
           <p style="margin: 0; line-height: 1.6;">
@@ -448,7 +448,7 @@ export const Draggable: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal Arrastável
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Arraste-me! 🖱️"
@@ -457,7 +457,7 @@ export const Draggable: Story = {
         iconColor="#f59e0b"
         [draggable]="true"
         (closed)="isOpen = false">
-        
+
         <div style="padding: 1.5rem; background: #fef3c7; border-radius: 0.5rem;">
           <h4 style="margin: 0 0 1rem 0;">🖱️ Recurso Premium: Drag & Drop</h4>
           <p style="margin: 0; line-height: 1.6;">
@@ -494,7 +494,7 @@ export const WithLoading: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal com Loading
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Salvando Dados"
@@ -504,16 +504,16 @@ export const WithLoading: Story = {
         loadingText="Aguarde enquanto salvamos seus dados..."
         [footer]="true"
         (closed)="isOpen = false">
-        
+
         <p style="margin: 0;">Clique no botão abaixo para simular um salvamento com loading!</p>
-        
+
         <div modal-footer>
-          <button 
+          <button
             (click)="isOpen = false"
             style="padding: 0.625rem 1.25rem; background: #e5e7eb; border: none; border-radius: 0.5rem; cursor: pointer;">
             Cancelar
           </button>
-          <button 
+          <button
             (click)="startLoading()"
             style="padding: 0.625rem 1.25rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
             Salvar
@@ -535,7 +535,7 @@ export const NonClosable: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #dc2626; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Modal Crítico
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Ação Crítica"
@@ -546,7 +546,7 @@ export const NonClosable: Story = {
         [closeOnEscape]="false"
         [footer]="true"
         (closed)="isOpen = false">
-        
+
         <div style="padding: 1rem; background: #fee2e2; border-radius: 0.5rem; border-left: 4px solid #dc2626;">
           <p style="margin: 0; color: #991b1b; font-weight: 600;">
             ⚠️ Este modal NÃO fecha ao clicar fora ou pressionar ESC
@@ -555,9 +555,9 @@ export const NonClosable: Story = {
             Use para ações críticas que requerem decisão consciente do usuário.
           </p>
         </div>
-        
+
         <div modal-footer>
-          <button 
+          <button
             (click)="isOpen = false"
             style="padding: 0.625rem 1.25rem; background: #e5e7eb; border: none; border-radius: 0.5rem; cursor: pointer;">
             Entendi
@@ -592,7 +592,7 @@ export const ConfirmDialog: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #dc2626; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Excluir Item
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Confirmar Exclusão"
@@ -604,16 +604,16 @@ export const ConfirmDialog: Story = {
         loadingText="Excluindo item..."
         [footer]="true"
         (closed)="isOpen = false">
-        
+
         <p style="margin: 0;">Tem certeza que deseja excluir este item permanentemente?</p>
-        
+
         <div modal-footer style="width: 100%; justify-content: flex-end;">
-          <button 
+          <button
             (click)="isOpen = false"
             style="padding: 0.625rem 1.25rem; background: #e5e7eb; border: none; border-radius: 0.5rem; cursor: pointer; font-family: Montserrat; font-weight: 500;">
             Cancelar
           </button>
-          <button 
+          <button
             (click)="confirmDelete()"
             style="padding: 0.625rem 1.25rem; background: #dc2626; color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-family: Montserrat; font-weight: 600;">
             Sim, Excluir
@@ -650,7 +650,7 @@ export const FormModal: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer;">
         Novo Usuário
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Cadastrar Usuário"
@@ -661,33 +661,33 @@ export const FormModal: Story = {
         loadingText="Salvando usuário..."
         [footer]="true"
         (closed)="isOpen = false">
-        
+
         <div style="display: flex; flex-direction: column; gap: 1.25rem;">
           <div>
             <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">Nome *</label>
-            <input 
+            <input
               [(ngModel)]="formData.name"
               placeholder="Digite o nome completo"
               style="width: 100%; padding: 0.75rem; border: 2px solid #e5e7eb; border-radius: 0.5rem; font-family: Montserrat; font-size: 0.9375rem;">
           </div>
-          
+
           <div>
             <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #374151;">E-mail *</label>
-            <input 
+            <input
               [(ngModel)]="formData.email"
               type="email"
               placeholder="seu@email.com"
               style="width: 100%; padding: 0.75rem; border: 2px solid #e5e7eb; border-radius: 0.5rem; font-family: Montserrat; font-size: 0.9375rem;">
           </div>
         </div>
-        
+
         <div modal-footer style="width: 100%; justify-content: flex-end;">
-          <button 
+          <button
             (click)="isOpen = false"
             style="padding: 0.625rem 1.25rem; background: #e5e7eb; border: none; border-radius: 0.5rem; cursor: pointer; font-family: Montserrat; font-weight: 500;">
             Cancelar
           </button>
-          <button 
+          <button
             (click)="save()"
             [disabled]="!isValid()"
             style="padding: 0.625rem 1.25rem; background: #009ADA; color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-family: Montserrat; font-weight: 600;"
@@ -711,7 +711,7 @@ export const AllFeatures: Story = {
       <button (click)="open()" style="padding: 0.875rem 1.75rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-weight: 600;">
         🚀 Modal Completo
       </button>
-      
+
       <web-modal
         [isOpen]="isOpen"
         title="Modal Premium"
@@ -724,7 +724,7 @@ export const AllFeatures: Story = {
         [draggable]="true"
         [blurBackground]="true"
         (closed)="isOpen = false">
-        
+
         <div style="display: flex; flex-direction: column; gap: 1.5rem;">
           <div style="padding: 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 0.75rem; color: white;">
             <h3 style="margin: 0 0 1rem 0;">🎉 Recursos Premium Disponíveis:</h3>
@@ -737,9 +737,9 @@ export const AllFeatures: Story = {
               <li>📏 <strong>Size Large</strong> - Modal espaçoso</li>
             </ul>
           </div>
-          
+
           <p style="margin: 0; color: #6b7280; line-height: 1.6;">
-            Este modal demonstra todos os recursos premium disponíveis. 
+            Este modal demonstra todos os recursos premium disponíveis.
             Experimente cada botão no header para ver as funcionalidades em ação!
           </p>
         </div>
